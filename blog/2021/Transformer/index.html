@@ -266,11 +266,11 @@
 
     <p>RNN很不容易并行化：必须逐个元素计算（左1）；CNN代替RNN实现并行计算，但是只能考虑有限内容，通过多堆叠几层CNN，使得CNN的感受野变大，如下图：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled.png" alt="Untitled"></p>
 
     <p>使用self-attention代替，可以减少堆叠CNN filter，并且可以实现并行化计算的bi-directional seq2seq。</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png" alt="截屏2023-05-07 15.04.13.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png" alt="截屏2023-05-07 15.04.13.png"></p>
   </li>
 </ul>
 
@@ -283,34 +283,34 @@
     <p>(3个不同的transformation matrix $W^q,W^k,W^v$)
   首先计算q,k,v：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.05.25.png" alt="截屏2023-05-07 15.05.25.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.05.25.png" alt="截屏2023-05-07 15.05.25.png"></p>
 
     <p>接着计算每个$q_j$和每个$k_i$的attention $\alpha_{i,j}$：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.07.42.png" alt="截屏2023-05-07 15.07.42.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.07.42.png" alt="截屏2023-05-07 15.07.42.png"></p>
 
     <p>然后对每个$\alpha_{j,i}$取softmax：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.13.22.png" alt="截屏2023-05-07 15.13.22.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.13.22.png" alt="截屏2023-05-07 15.13.22.png"></p>
 
     <p>最终计算attention $\alpha$和value $v$的加权和，即输出b：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.15.31.png" alt="截屏2023-05-07 15.15.31.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.15.31.png" alt="截屏2023-05-07 15.15.31.png"></p>
   </li>
   <li>
     <p>矩阵化self-attention计算过程</p>
 
     <p>首先计算q，k，v</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%201.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%201.png" alt="Untitled"></p>
 
     <p>接着计算attention $\alpha$：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%202.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%202.png" alt="Untitled"></p>
 
     <p>总的计算过程可以表示为：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.49.05.png" alt="截屏2023-05-07 15.49.05.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.49.05.png" alt="截屏2023-05-07 15.49.05.png"></p>
   </li>
 </ul>
 
@@ -322,11 +322,11 @@
 
     <p>a乘以不同的W得到多个QKV，通过多个QKV计算得到多个$b^{i,j}$，在乘以$W^0$得到最终的$b^i$。</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%203.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%203.png" alt="Untitled"></p>
 
     <p>这里有一组Multi-head Self-attention的解果，其中绿色部分是一组query和key，红色部分是另外一组query和key，可以发现绿色部分其实更关注global的信息，而红色部分其实更关注local的信息。</p>
 
-    <p><img src="https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.02.45.png" alt="%E6%88%AA%E5%B1%8F2023-05-07_16.02.45"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%E6%88%AA%E5%B1%8F2023-05-07_16.02.45.png" alt="%E6%88%AA%E5%B1%8F2023-05-07_16.02.45"></p>
 
     <p>代码实现：</p>
 
@@ -403,11 +403,11 @@
 
     <p>现在的self-attention中没有位置的信息，一个单词向量的“近在咫尺”位置的单词向量和“远在天涯”位置的单词向量效果是一样的。所以在self-attention原来的paper中，是这样解决的：人工对每个位置构建一个位置向量$p_i$，通过对其进行认为变换$W^p$，得到position embedding $e_i$:</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%204.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%204.png" alt="Untitled"></p>
 
     <p>在transformer论文中，position embedding的计算公式（$W^p$）为(左)，每个$PE(i)=e_i$的计算公式如下：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%205.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%205.png" alt="Untitled"></p>
 
     <p>代码实现：</p>
 
@@ -443,7 +443,7 @@
 
     </blockquote>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%206.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%206.png" alt="Untitled"></p>
   </li>
 </ul>
 
@@ -455,7 +455,7 @@
 
     <p>可以把Encoder-Decoder中的RNN用self-attention取代掉。</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.38.50.png" alt="截屏2023-05-07 16.38.50.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.38.50.png" alt="截屏2023-05-07 16.38.50.png"></p>
   </li>
   <li>
     <p>对比self-attention和CNN的关系</p>
@@ -474,15 +474,15 @@
 
     <p><strong>模型总览</strong></p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%207.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%207.png" alt="Untitled"></p>
 
     <p><strong>Encoder</strong></p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.56.16.png" alt="截屏2023-05-07 16.56.16.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.56.16.png" alt="截屏2023-05-07 16.56.16.png"></p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.57.17.png" alt="截屏2023-05-07 16.57.17.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.57.17.png" alt="截屏2023-05-07 16.57.17.png"></p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_17.20.06.png" alt="截屏2023-05-07 17.20.06.png"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_17.20.06.png" alt="截屏2023-05-07 17.20.06.png"></p>
 
     <p>接着是一个Feed Forward的前馈网络和一个Add &amp; Norm Layer。代码如下：</p>
 
@@ -519,7 +519,7 @@
 
     <p>详解Masked Multi-Head Self-attention（对照前文attention的计算过程）（左），右图为Decoder的过程，绿色框外为mask掉的区域。</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%208.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%208.png" alt="Untitled"></p>
 
     <p><strong>测试</strong></p>
 
@@ -536,7 +536,7 @@
   <li>
     <p>矩阵化Masked Multi-Head Self-attention</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%209.png" alt="Untitled"></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%209.png" alt="Untitled"></p>
 
     <p>代码实现：<strong>ScaledDotProductAttention</strong></p>
 
@@ -700,7 +700,7 @@ tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词
 
   <p>2.nn.LayerNorm(d_model, eps=1e-6)</p>
 
-  <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_22.28.50.png" alt="截屏2023-05-07 22.28.50.png"></p>
+  <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_22.28.50.png" alt="截屏2023-05-07 22.28.50.png"></p>
 
 </blockquote>
 

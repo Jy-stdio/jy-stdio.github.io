@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jy-stdio.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jy-stdio.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-07T20:28:12+00:00</updated><id>https://jy-stdio.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jy-stdio.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jy-stdio.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-07T20:31:35+00:00</updated><id>https://jy-stdio.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">a post with giscus comments</title><link href="https://jy-stdio.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://jy-stdio.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://jy-stdio.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://jy-stdio.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://jy-stdio.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://jy-stdio.github.io/blog/2022/redirect</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://jy-stdio.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://jy-stdio.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
 Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
 
@@ -24,7 +24,7 @@ sequenceDiagram
 </code></pre></div></div>
 
 <div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1683491301614" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1683491301614 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1683491301614 .node circle,#mermaid-1683491301614 .node ellipse,#mermaid-1683491301614 .node polygon,#mermaid-1683491301614 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1683491301614 .node.clickable{cursor:pointer}#mermaid-1683491301614 .arrowheadPath{fill:#333}#mermaid-1683491301614 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1683491301614 .edgeLabel{background-color:#e8e8e8}#mermaid-1683491301614 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1683491301614 .cluster text{fill:#333}#mermaid-1683491301614 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1683491301614 .actor{stroke:#ccf;fill:#ececff}#mermaid-1683491301614 text.actor{fill:#000;stroke:none}#mermaid-1683491301614 .actor-line{stroke:grey}#mermaid-1683491301614 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1683491301614 .messageLine0,#mermaid-1683491301614 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1683491301614 #arrowhead{fill:#333}#mermaid-1683491301614 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1683491301614 .messageText{fill:#333;stroke:none}#mermaid-1683491301614 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1683491301614 .labelText,#mermaid-1683491301614 .loopText{fill:#000;stroke:none}#mermaid-1683491301614 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1683491301614 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1683491301614 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1683491301614 .section{stroke:none;opacity:.2}#mermaid-1683491301614 .section0{fill:rgba(102,102,255,.49)}#mermaid-1683491301614 .section2{fill:#fff400}#mermaid-1683491301614 .section1,#mermaid-1683491301614 .section3{fill:#fff;opacity:.2}#mermaid-1683491301614 .sectionTitle0,#mermaid-1683491301614 .sectionTitle1,#mermaid-1683491301614 .sectionTitle2,#mermaid-1683491301614 .sectionTitle3{fill:#333}#mermaid-1683491301614 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1683491301614 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1683491301614 .grid path{stroke-width:0}#mermaid-1683491301614 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1683491301614 .task{stroke-width:2}#mermaid-1683491301614 .taskText{text-anchor:middle;font-size:11px}#mermaid-1683491301614 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1683491301614 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1683491301614 .taskText0,#mermaid-1683491301614 .taskText1,#mermaid-1683491301614 .taskText2,#mermaid-1683491301614 .taskText3{fill:#fff}#mermaid-1683491301614 .task0,#mermaid-1683491301614 .task1,#mermaid-1683491301614 .task2,#mermaid-1683491301614 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1683491301614 .taskTextOutside0,#mermaid-1683491301614 .taskTextOutside1,#mermaid-1683491301614 .taskTextOutside2,#mermaid-1683491301614 .taskTextOutside3{fill:#000}#mermaid-1683491301614 .active0,#mermaid-1683491301614 .active1,#mermaid-1683491301614 .active2,#mermaid-1683491301614 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1683491301614 .activeText0,#mermaid-1683491301614 .activeText1,#mermaid-1683491301614 .activeText2,#mermaid-1683491301614 .activeText3{fill:#000!important}#mermaid-1683491301614 .done0,#mermaid-1683491301614 .done1,#mermaid-1683491301614 .done2,#mermaid-1683491301614 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1683491301614 .doneText0,#mermaid-1683491301614 .doneText1,#mermaid-1683491301614 .doneText2,#mermaid-1683491301614 .doneText3{fill:#000!important}#mermaid-1683491301614 .crit0,#mermaid-1683491301614 .crit1,#mermaid-1683491301614 .crit2,#mermaid-1683491301614 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1683491301614 .activeCrit0,#mermaid-1683491301614 .activeCrit1,#mermaid-1683491301614 .activeCrit2,#mermaid-1683491301614 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1683491301614 .doneCrit0,#mermaid-1683491301614 .doneCrit1,#mermaid-1683491301614 .doneCrit2,#mermaid-1683491301614 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1683491301614 .activeCritText0,#mermaid-1683491301614 .activeCritText1,#mermaid-1683491301614 .activeCritText2,#mermaid-1683491301614 .activeCritText3,#mermaid-1683491301614 .doneCritText0,#mermaid-1683491301614 .doneCritText1,#mermaid-1683491301614 .doneCritText2,#mermaid-1683491301614 .doneCritText3{fill:#000!important}#mermaid-1683491301614 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1683491301614 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1683491301614 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1683491301614 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1683491301614 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1683491301614 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1683491301614 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1683491301614 #compositionEnd,#mermaid-1683491301614 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683491301614 #aggregationEnd,#mermaid-1683491301614 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1683491301614 #dependencyEnd,#mermaid-1683491301614 #dependencyStart,#mermaid-1683491301614 #extensionEnd,#mermaid-1683491301614 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683491301614 .branch-label,#mermaid-1683491301614 .commit-id,#mermaid-1683491301614 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1683491301614 {
+  <svg id="mermaid-1683491505387" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1683491505387 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1683491505387 .node circle,#mermaid-1683491505387 .node ellipse,#mermaid-1683491505387 .node polygon,#mermaid-1683491505387 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1683491505387 .node.clickable{cursor:pointer}#mermaid-1683491505387 .arrowheadPath{fill:#333}#mermaid-1683491505387 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1683491505387 .edgeLabel{background-color:#e8e8e8}#mermaid-1683491505387 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1683491505387 .cluster text{fill:#333}#mermaid-1683491505387 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1683491505387 .actor{stroke:#ccf;fill:#ececff}#mermaid-1683491505387 text.actor{fill:#000;stroke:none}#mermaid-1683491505387 .actor-line{stroke:grey}#mermaid-1683491505387 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1683491505387 .messageLine0,#mermaid-1683491505387 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1683491505387 #arrowhead{fill:#333}#mermaid-1683491505387 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1683491505387 .messageText{fill:#333;stroke:none}#mermaid-1683491505387 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1683491505387 .labelText,#mermaid-1683491505387 .loopText{fill:#000;stroke:none}#mermaid-1683491505387 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1683491505387 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1683491505387 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1683491505387 .section{stroke:none;opacity:.2}#mermaid-1683491505387 .section0{fill:rgba(102,102,255,.49)}#mermaid-1683491505387 .section2{fill:#fff400}#mermaid-1683491505387 .section1,#mermaid-1683491505387 .section3{fill:#fff;opacity:.2}#mermaid-1683491505387 .sectionTitle0,#mermaid-1683491505387 .sectionTitle1,#mermaid-1683491505387 .sectionTitle2,#mermaid-1683491505387 .sectionTitle3{fill:#333}#mermaid-1683491505387 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1683491505387 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1683491505387 .grid path{stroke-width:0}#mermaid-1683491505387 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1683491505387 .task{stroke-width:2}#mermaid-1683491505387 .taskText{text-anchor:middle;font-size:11px}#mermaid-1683491505387 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1683491505387 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1683491505387 .taskText0,#mermaid-1683491505387 .taskText1,#mermaid-1683491505387 .taskText2,#mermaid-1683491505387 .taskText3{fill:#fff}#mermaid-1683491505387 .task0,#mermaid-1683491505387 .task1,#mermaid-1683491505387 .task2,#mermaid-1683491505387 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1683491505387 .taskTextOutside0,#mermaid-1683491505387 .taskTextOutside1,#mermaid-1683491505387 .taskTextOutside2,#mermaid-1683491505387 .taskTextOutside3{fill:#000}#mermaid-1683491505387 .active0,#mermaid-1683491505387 .active1,#mermaid-1683491505387 .active2,#mermaid-1683491505387 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1683491505387 .activeText0,#mermaid-1683491505387 .activeText1,#mermaid-1683491505387 .activeText2,#mermaid-1683491505387 .activeText3{fill:#000!important}#mermaid-1683491505387 .done0,#mermaid-1683491505387 .done1,#mermaid-1683491505387 .done2,#mermaid-1683491505387 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1683491505387 .doneText0,#mermaid-1683491505387 .doneText1,#mermaid-1683491505387 .doneText2,#mermaid-1683491505387 .doneText3{fill:#000!important}#mermaid-1683491505387 .crit0,#mermaid-1683491505387 .crit1,#mermaid-1683491505387 .crit2,#mermaid-1683491505387 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1683491505387 .activeCrit0,#mermaid-1683491505387 .activeCrit1,#mermaid-1683491505387 .activeCrit2,#mermaid-1683491505387 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1683491505387 .doneCrit0,#mermaid-1683491505387 .doneCrit1,#mermaid-1683491505387 .doneCrit2,#mermaid-1683491505387 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1683491505387 .activeCritText0,#mermaid-1683491505387 .activeCritText1,#mermaid-1683491505387 .activeCritText2,#mermaid-1683491505387 .activeCritText3,#mermaid-1683491505387 .doneCritText0,#mermaid-1683491505387 .doneCritText1,#mermaid-1683491505387 .doneCritText2,#mermaid-1683491505387 .doneCritText3{fill:#000!important}#mermaid-1683491505387 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1683491505387 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1683491505387 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1683491505387 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1683491505387 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1683491505387 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1683491505387 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1683491505387 #compositionEnd,#mermaid-1683491505387 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683491505387 #aggregationEnd,#mermaid-1683491505387 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1683491505387 #dependencyEnd,#mermaid-1683491505387 #dependencyStart,#mermaid-1683491505387 #extensionEnd,#mermaid-1683491505387 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683491505387 .branch-label,#mermaid-1683491505387 .commit-id,#mermaid-1683491505387 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1683491505387 {
     color: rgb(0, 0, 0);
     font: normal normal 400 normal 16px / normal "Times New Roman";
   }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>
@@ -345,11 +345,11 @@ This line is only separated by a single newline, so it’s a separate line in th
 
     <p>RNN很不容易并行化：必须逐个元素计算（左1）；CNN代替RNN实现并行计算，但是只能考虑有限内容，通过多堆叠几层CNN，使得CNN的感受野变大，如下图：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled.png" alt="Untitled" /></p>
 
     <p>使用self-attention代替，可以减少堆叠CNN filter，并且可以实现并行化计算的bi-directional seq2seq。</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png" alt="截屏2023-05-07 15.04.13.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png" alt="截屏2023-05-07 15.04.13.png" /></p>
   </li>
 </ul>
 
@@ -362,34 +362,34 @@ This line is only separated by a single newline, so it’s a separate line in th
     <p>(3个不同的transformation matrix $W^q,W^k,W^v$)
   首先计算q,k,v：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.05.25.png" alt="截屏2023-05-07 15.05.25.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.05.25.png" alt="截屏2023-05-07 15.05.25.png" /></p>
 
     <p>接着计算每个$q_j$和每个$k_i$的attention $\alpha_{i,j}$：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.07.42.png" alt="截屏2023-05-07 15.07.42.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.07.42.png" alt="截屏2023-05-07 15.07.42.png" /></p>
 
     <p>然后对每个$\alpha_{j,i}$取softmax：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.13.22.png" alt="截屏2023-05-07 15.13.22.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.13.22.png" alt="截屏2023-05-07 15.13.22.png" /></p>
 
     <p>最终计算attention $\alpha$和value $v$的加权和，即输出b：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.15.31.png" alt="截屏2023-05-07 15.15.31.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.15.31.png" alt="截屏2023-05-07 15.15.31.png" /></p>
   </li>
   <li>
     <p>矩阵化self-attention计算过程</p>
 
     <p>首先计算q，k，v</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%201.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%201.png" alt="Untitled" /></p>
 
     <p>接着计算attention $\alpha$：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%202.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%202.png" alt="Untitled" /></p>
 
     <p>总的计算过程可以表示为：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.49.05.png" alt="截屏2023-05-07 15.49.05.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.49.05.png" alt="截屏2023-05-07 15.49.05.png" /></p>
   </li>
 </ul>
 
@@ -401,11 +401,11 @@ This line is only separated by a single newline, so it’s a separate line in th
 
     <p>a乘以不同的W得到多个QKV，通过多个QKV计算得到多个$b^{i,j}$，在乘以$W^0$得到最终的$b^i$。</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%203.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%203.png" alt="Untitled" /></p>
 
     <p>这里有一组Multi-head Self-attention的解果，其中绿色部分是一组query和key，红色部分是另外一组query和key，可以发现绿色部分其实更关注global的信息，而红色部分其实更关注local的信息。</p>
 
-    <p><img src="https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.02.45.png" alt="%E6%88%AA%E5%B1%8F2023-05-07_16.02.45" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%E6%88%AA%E5%B1%8F2023-05-07_16.02.45.png" alt="%E6%88%AA%E5%B1%8F2023-05-07_16.02.45" /></p>
 
     <p>代码实现：</p>
 
@@ -480,11 +480,11 @@ This line is only separated by a single newline, so it’s a separate line in th
 
     <p>现在的self-attention中没有位置的信息，一个单词向量的“近在咫尺”位置的单词向量和“远在天涯”位置的单词向量效果是一样的。所以在self-attention原来的paper中，是这样解决的：人工对每个位置构建一个位置向量$p_i$，通过对其进行认为变换$W^p$，得到position embedding $e_i$:</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%204.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%204.png" alt="Untitled" /></p>
 
     <p>在transformer论文中，position embedding的计算公式（$W^p$）为(左)，每个$PE(i)=e_i$的计算公式如下：</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%205.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%205.png" alt="Untitled" /></p>
 
     <p>代码实现：</p>
 
@@ -519,7 +519,7 @@ This line is only separated by a single newline, so it’s a separate line in th
 
     </blockquote>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%206.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%206.png" alt="Untitled" /></p>
   </li>
 </ul>
 
@@ -531,7 +531,7 @@ This line is only separated by a single newline, so it’s a separate line in th
 
     <p>可以把Encoder-Decoder中的RNN用self-attention取代掉。</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.38.50.png" alt="截屏2023-05-07 16.38.50.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.38.50.png" alt="截屏2023-05-07 16.38.50.png" /></p>
   </li>
   <li>
     <p>对比self-attention和CNN的关系</p>
@@ -550,15 +550,15 @@ This line is only separated by a single newline, so it’s a separate line in th
 
     <p><strong>模型总览</strong></p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%207.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%207.png" alt="Untitled" /></p>
 
     <p><strong>Encoder</strong></p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.56.16.png" alt="截屏2023-05-07 16.56.16.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.56.16.png" alt="截屏2023-05-07 16.56.16.png" /></p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.57.17.png" alt="截屏2023-05-07 16.57.17.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.57.17.png" alt="截屏2023-05-07 16.57.17.png" /></p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_17.20.06.png" alt="截屏2023-05-07 17.20.06.png" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_17.20.06.png" alt="截屏2023-05-07 17.20.06.png" /></p>
 
     <p>接着是一个Feed Forward的前馈网络和一个Add &amp; Norm Layer。代码如下：</p>
 
@@ -594,7 +594,7 @@ This line is only separated by a single newline, so it’s a separate line in th
 
     <p>详解Masked Multi-Head Self-attention（对照前文attention的计算过程）（左），右图为Decoder的过程，绿色框外为mask掉的区域。</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%208.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%208.png" alt="Untitled" /></p>
 
     <p><strong>测试</strong></p>
 
@@ -608,7 +608,7 @@ This line is only separated by a single newline, so it’s a separate line in th
   <li>
     <p>矩阵化Masked Multi-Head Self-attention</p>
 
-    <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%209.png" alt="Untitled" /></p>
+    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%209.png" alt="Untitled" /></p>
 
     <p>代码实现：<strong>ScaledDotProductAttention</strong></p>
 
@@ -771,7 +771,7 @@ tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词
 
   <p>2.nn.LayerNorm(d_model, eps=1e-6)</p>
 
-  <p><img src="Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_22.28.50.png" alt="截屏2023-05-07 22.28.50.png" /></p>
+  <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_22.28.50.png" alt="截屏2023-05-07 22.28.50.png" /></p>
 
 </blockquote>
 
