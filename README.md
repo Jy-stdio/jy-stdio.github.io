@@ -528,6 +528,10 @@ Easily create beautiful grids within your blog posts and project pages:
 ---
 
 ### Other features
+ 
+#### blog
+ 
+`_posts/`中为blog.
 
 #### GitHub's repositories and user stats
 
