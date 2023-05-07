@@ -1,7 +1,7 @@
 ---
-layout: xxxxxx
-title: xxxxxx
-description: an example of a distill-style blog post and main elements
+layout: post
+title: dfvjdgvad
+description: xxxx
 giscus_comments: true
 date: 2023-05-22
 
