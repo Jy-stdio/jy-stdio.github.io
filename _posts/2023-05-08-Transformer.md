@@ -3,7 +3,11 @@ layout: post
 title: acccpost with redirect
 date: 2023-022-01 17:39:00
 description: you can also rcdsedirect to assets like pdf
-redirect: /assets/pdf/example_pdf.pdf
+categories: sample-posts toc sidebar
+giscus_comments: true
+related_posts: false
+toc:
+  sidebar: left
 ---
 
 # Transformer
