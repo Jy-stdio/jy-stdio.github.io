@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href=”#“>Github</a>. 
-复旦大学，类脑智能科学与技术研究院-生物医学工程，博士生
+subtitle: <a href=”#“>Github</a>. 复旦大学，类脑智能科学与技术研究院-生物医学工程，博士生
 
 
 profile:
