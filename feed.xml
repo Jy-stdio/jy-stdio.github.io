@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jy-stdio.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jy-stdio.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-07T20:31:35+00:00</updated><id>https://jy-stdio.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jy-stdio.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jy-stdio.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-07T20:32:45+00:00</updated><id>https://jy-stdio.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">a post with giscus comments</title><link href="https://jy-stdio.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://jy-stdio.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://jy-stdio.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://jy-stdio.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://jy-stdio.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://jy-stdio.github.io/blog/2022/redirect</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://jy-stdio.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://jy-stdio.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
 Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
 
@@ -24,7 +24,7 @@ sequenceDiagram
 </code></pre></div></div>
 
 <div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1683491505387" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1683491505387 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1683491505387 .node circle,#mermaid-1683491505387 .node ellipse,#mermaid-1683491505387 .node polygon,#mermaid-1683491505387 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1683491505387 .node.clickable{cursor:pointer}#mermaid-1683491505387 .arrowheadPath{fill:#333}#mermaid-1683491505387 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1683491505387 .edgeLabel{background-color:#e8e8e8}#mermaid-1683491505387 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1683491505387 .cluster text{fill:#333}#mermaid-1683491505387 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1683491505387 .actor{stroke:#ccf;fill:#ececff}#mermaid-1683491505387 text.actor{fill:#000;stroke:none}#mermaid-1683491505387 .actor-line{stroke:grey}#mermaid-1683491505387 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1683491505387 .messageLine0,#mermaid-1683491505387 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1683491505387 #arrowhead{fill:#333}#mermaid-1683491505387 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1683491505387 .messageText{fill:#333;stroke:none}#mermaid-1683491505387 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1683491505387 .labelText,#mermaid-1683491505387 .loopText{fill:#000;stroke:none}#mermaid-1683491505387 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1683491505387 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1683491505387 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1683491505387 .section{stroke:none;opacity:.2}#mermaid-1683491505387 .section0{fill:rgba(102,102,255,.49)}#mermaid-1683491505387 .section2{fill:#fff400}#mermaid-1683491505387 .section1,#mermaid-1683491505387 .section3{fill:#fff;opacity:.2}#mermaid-1683491505387 .sectionTitle0,#mermaid-1683491505387 .sectionTitle1,#mermaid-1683491505387 .sectionTitle2,#mermaid-1683491505387 .sectionTitle3{fill:#333}#mermaid-1683491505387 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1683491505387 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1683491505387 .grid path{stroke-width:0}#mermaid-1683491505387 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1683491505387 .task{stroke-width:2}#mermaid-1683491505387 .taskText{text-anchor:middle;font-size:11px}#mermaid-1683491505387 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1683491505387 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1683491505387 .taskText0,#mermaid-1683491505387 .taskText1,#mermaid-1683491505387 .taskText2,#mermaid-1683491505387 .taskText3{fill:#fff}#mermaid-1683491505387 .task0,#mermaid-1683491505387 .task1,#mermaid-1683491505387 .task2,#mermaid-1683491505387 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1683491505387 .taskTextOutside0,#mermaid-1683491505387 .taskTextOutside1,#mermaid-1683491505387 .taskTextOutside2,#mermaid-1683491505387 .taskTextOutside3{fill:#000}#mermaid-1683491505387 .active0,#mermaid-1683491505387 .active1,#mermaid-1683491505387 .active2,#mermaid-1683491505387 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1683491505387 .activeText0,#mermaid-1683491505387 .activeText1,#mermaid-1683491505387 .activeText2,#mermaid-1683491505387 .activeText3{fill:#000!important}#mermaid-1683491505387 .done0,#mermaid-1683491505387 .done1,#mermaid-1683491505387 .done2,#mermaid-1683491505387 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1683491505387 .doneText0,#mermaid-1683491505387 .doneText1,#mermaid-1683491505387 .doneText2,#mermaid-1683491505387 .doneText3{fill:#000!important}#mermaid-1683491505387 .crit0,#mermaid-1683491505387 .crit1,#mermaid-1683491505387 .crit2,#mermaid-1683491505387 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1683491505387 .activeCrit0,#mermaid-1683491505387 .activeCrit1,#mermaid-1683491505387 .activeCrit2,#mermaid-1683491505387 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1683491505387 .doneCrit0,#mermaid-1683491505387 .doneCrit1,#mermaid-1683491505387 .doneCrit2,#mermaid-1683491505387 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1683491505387 .activeCritText0,#mermaid-1683491505387 .activeCritText1,#mermaid-1683491505387 .activeCritText2,#mermaid-1683491505387 .activeCritText3,#mermaid-1683491505387 .doneCritText0,#mermaid-1683491505387 .doneCritText1,#mermaid-1683491505387 .doneCritText2,#mermaid-1683491505387 .doneCritText3{fill:#000!important}#mermaid-1683491505387 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1683491505387 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1683491505387 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1683491505387 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1683491505387 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1683491505387 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1683491505387 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1683491505387 #compositionEnd,#mermaid-1683491505387 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683491505387 #aggregationEnd,#mermaid-1683491505387 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1683491505387 #dependencyEnd,#mermaid-1683491505387 #dependencyStart,#mermaid-1683491505387 #extensionEnd,#mermaid-1683491505387 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683491505387 .branch-label,#mermaid-1683491505387 .commit-id,#mermaid-1683491505387 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1683491505387 {
+  <svg id="mermaid-1683491573506" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1683491573506 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1683491573506 .node circle,#mermaid-1683491573506 .node ellipse,#mermaid-1683491573506 .node polygon,#mermaid-1683491573506 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1683491573506 .node.clickable{cursor:pointer}#mermaid-1683491573506 .arrowheadPath{fill:#333}#mermaid-1683491573506 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1683491573506 .edgeLabel{background-color:#e8e8e8}#mermaid-1683491573506 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1683491573506 .cluster text{fill:#333}#mermaid-1683491573506 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1683491573506 .actor{stroke:#ccf;fill:#ececff}#mermaid-1683491573506 text.actor{fill:#000;stroke:none}#mermaid-1683491573506 .actor-line{stroke:grey}#mermaid-1683491573506 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1683491573506 .messageLine0,#mermaid-1683491573506 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1683491573506 #arrowhead{fill:#333}#mermaid-1683491573506 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1683491573506 .messageText{fill:#333;stroke:none}#mermaid-1683491573506 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1683491573506 .labelText,#mermaid-1683491573506 .loopText{fill:#000;stroke:none}#mermaid-1683491573506 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1683491573506 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1683491573506 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1683491573506 .section{stroke:none;opacity:.2}#mermaid-1683491573506 .section0{fill:rgba(102,102,255,.49)}#mermaid-1683491573506 .section2{fill:#fff400}#mermaid-1683491573506 .section1,#mermaid-1683491573506 .section3{fill:#fff;opacity:.2}#mermaid-1683491573506 .sectionTitle0,#mermaid-1683491573506 .sectionTitle1,#mermaid-1683491573506 .sectionTitle2,#mermaid-1683491573506 .sectionTitle3{fill:#333}#mermaid-1683491573506 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1683491573506 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1683491573506 .grid path{stroke-width:0}#mermaid-1683491573506 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1683491573506 .task{stroke-width:2}#mermaid-1683491573506 .taskText{text-anchor:middle;font-size:11px}#mermaid-1683491573506 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1683491573506 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1683491573506 .taskText0,#mermaid-1683491573506 .taskText1,#mermaid-1683491573506 .taskText2,#mermaid-1683491573506 .taskText3{fill:#fff}#mermaid-1683491573506 .task0,#mermaid-1683491573506 .task1,#mermaid-1683491573506 .task2,#mermaid-1683491573506 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1683491573506 .taskTextOutside0,#mermaid-1683491573506 .taskTextOutside1,#mermaid-1683491573506 .taskTextOutside2,#mermaid-1683491573506 .taskTextOutside3{fill:#000}#mermaid-1683491573506 .active0,#mermaid-1683491573506 .active1,#mermaid-1683491573506 .active2,#mermaid-1683491573506 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1683491573506 .activeText0,#mermaid-1683491573506 .activeText1,#mermaid-1683491573506 .activeText2,#mermaid-1683491573506 .activeText3{fill:#000!important}#mermaid-1683491573506 .done0,#mermaid-1683491573506 .done1,#mermaid-1683491573506 .done2,#mermaid-1683491573506 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1683491573506 .doneText0,#mermaid-1683491573506 .doneText1,#mermaid-1683491573506 .doneText2,#mermaid-1683491573506 .doneText3{fill:#000!important}#mermaid-1683491573506 .crit0,#mermaid-1683491573506 .crit1,#mermaid-1683491573506 .crit2,#mermaid-1683491573506 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1683491573506 .activeCrit0,#mermaid-1683491573506 .activeCrit1,#mermaid-1683491573506 .activeCrit2,#mermaid-1683491573506 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1683491573506 .doneCrit0,#mermaid-1683491573506 .doneCrit1,#mermaid-1683491573506 .doneCrit2,#mermaid-1683491573506 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1683491573506 .activeCritText0,#mermaid-1683491573506 .activeCritText1,#mermaid-1683491573506 .activeCritText2,#mermaid-1683491573506 .activeCritText3,#mermaid-1683491573506 .doneCritText0,#mermaid-1683491573506 .doneCritText1,#mermaid-1683491573506 .doneCritText2,#mermaid-1683491573506 .doneCritText3{fill:#000!important}#mermaid-1683491573506 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1683491573506 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1683491573506 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1683491573506 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1683491573506 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1683491573506 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1683491573506 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1683491573506 #compositionEnd,#mermaid-1683491573506 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683491573506 #aggregationEnd,#mermaid-1683491573506 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1683491573506 #dependencyEnd,#mermaid-1683491573506 #dependencyStart,#mermaid-1683491573506 #extensionEnd,#mermaid-1683491573506 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1683491573506 .branch-label,#mermaid-1683491573506 .commit-id,#mermaid-1683491573506 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1683491573506 {
     color: rgb(0, 0, 0);
     font: normal normal 400 normal 16px / normal "Times New Roman";
   }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>
@@ -316,562 +316,7 @@ This line is part of the same quote.</p>
 <p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
 
 <p>This line is also a separate paragraph, but…
-This line is only separated by a single newline, so it’s a separate line in the <em>same paragraph</em>.</p>]]></content><author><name>Albert Einstein</name></author><summary type="html"><![CDATA[an example of a distill-style blog post and main elements]]></summary></entry><entry><title type="html">a distill-style blog post</title><link href="https://jy-stdio.github.io/blog/2021/Transformer/" rel="alternate" type="text/html" title="a distill-style blog post" /><published>2021-05-22T00:00:00+00:00</published><updated>2021-05-22T00:00:00+00:00</updated><id>https://jy-stdio.github.io/blog/2021/Transformer</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2021/Transformer/"><![CDATA[<h1 id="transformer">Transformer</h1>
-
-<p>date: May 6, 2023, author: @Jiyao Liu</p>
-
-<h2 id="参考资料">参考资料</h2>
-
-<p><a href="https://zhuanlan.zhihu.com/p/340149804?utm_medium=social&amp;utm_oi=998216950467743744&amp;utm_psn=1636827853579972608&amp;utm_source=wechat_session">Vision Transformer 超详细解读 (原理分析+代码解读) (一)</a></p>
-
-<p><a href="https://github.com/jadore801120/attention-is-all-you-need-pytorch">https://github.com/jadore801120/attention-is-all-you-need-pytorch</a></p>
-
-<blockquote>
-  <p>Transformer 模型使用了 Self-Attention 机制，<strong>不采用</strong> RNN 的<strong>顺序结构</strong>，使得模型<strong>可以并行化训练</strong>，而且能够<strong>拥有全局信息。</strong></p>
-
-</blockquote>
-
-<h2 id="1-self-attention">1. Self-attention</h2>
-
-<h3 id="11-处理sequence数据的模型"><strong>1.1 处理Sequence数据的模型</strong></h3>
-
-<ul>
-  <li>
-    <p>RNN</p>
-
-    <p>如果假设是一个single directional的RNN，那当输出$b_4$时，默认$a_1,a_2,a_3,a_4$都已经看过了。</p>
-
-    <p>如果假设是一个bi-directional的RNN，那当输出任意$b_{任意}$任意时，默认$a_1,a_2,a_3,a_4$都已经看过了</p>
-
-    <p>RNN很不容易并行化：必须逐个元素计算（左1）；CNN代替RNN实现并行计算，但是只能考虑有限内容，通过多堆叠几层CNN，使得CNN的感受野变大，如下图：</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled.png" alt="Untitled" /></p>
-
-    <p>使用self-attention代替，可以减少堆叠CNN filter，并且可以实现并行化计算的bi-directional seq2seq。</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png" alt="截屏2023-05-07 15.04.13.png" /></p>
-  </li>
-</ul>
-
-<h3 id="12-self-attention">1.2 Self-attention</h3>
-
-<ul>
-  <li>
-    <p>self-attention具体是怎么做的？</p>
-
-    <p>(3个不同的transformation matrix $W^q,W^k,W^v$)
-  首先计算q,k,v：</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.05.25.png" alt="截屏2023-05-07 15.05.25.png" /></p>
-
-    <p>接着计算每个$q_j$和每个$k_i$的attention $\alpha_{i,j}$：</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.07.42.png" alt="截屏2023-05-07 15.07.42.png" /></p>
-
-    <p>然后对每个$\alpha_{j,i}$取softmax：</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.13.22.png" alt="截屏2023-05-07 15.13.22.png" /></p>
-
-    <p>最终计算attention $\alpha$和value $v$的加权和，即输出b：</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.15.31.png" alt="截屏2023-05-07 15.15.31.png" /></p>
-  </li>
-  <li>
-    <p>矩阵化self-attention计算过程</p>
-
-    <p>首先计算q，k，v</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%201.png" alt="Untitled" /></p>
-
-    <p>接着计算attention $\alpha$：</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%202.png" alt="Untitled" /></p>
-
-    <p>总的计算过程可以表示为：</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.49.05.png" alt="截屏2023-05-07 15.49.05.png" /></p>
-  </li>
-</ul>
-
-<h3 id="13-multi-head-self-attention">1.3 Multi-head self-attention</h3>
-
-<ul>
-  <li>
-    <p>multi-head self-attention</p>
-
-    <p>a乘以不同的W得到多个QKV，通过多个QKV计算得到多个$b^{i,j}$，在乘以$W^0$得到最终的$b^i$。</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%203.png" alt="Untitled" /></p>
-
-    <p>这里有一组Multi-head Self-attention的解果，其中绿色部分是一组query和key，红色部分是另外一组query和key，可以发现绿色部分其实更关注global的信息，而红色部分其实更关注local的信息。</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%E6%88%AA%E5%B1%8F2023-05-07_16.02.45.png" alt="%E6%88%AA%E5%B1%8F2023-05-07_16.02.45" /></p>
-
-    <p>代码实现：</p>
-
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">class</span> <span class="nc">MultiHeadAttention</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-      <span class="s">''' Multi-Head Attention module '''</span>
-    
-      <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
-  				<span class="s">"""
-  				n_head：head数；d_model：最大句子的词个数；d_k,d_v：k,v向量维度
-  				"""</span>
-          <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
-    
-          <span class="n">self</span><span class="p">.</span><span class="n">n_head</span> <span class="o">=</span> <span class="n">n_head</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">d_k</span> <span class="o">=</span> <span class="n">d_k</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">d_v</span> <span class="o">=</span> <span class="n">d_v</span>
-    
-          <span class="n">self</span><span class="p">.</span><span class="n">w_qs</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">n_head</span> <span class="o">*</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">w_ks</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">n_head</span> <span class="o">*</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">w_vs</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">n_head</span> <span class="o">*</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">fc</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">n_head</span> <span class="o">*</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-    
-          <span class="n">self</span><span class="p">.</span><span class="n">attention</span> <span class="o">=</span> <span class="nc">ScaledDotProductAttention</span><span class="p">(</span><span class="n">temperature</span><span class="o">=</span><span class="n">d_k</span> <span class="o">**</span> <span class="mf">0.5</span><span class="p">)</span>
-    
-          <span class="n">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">)</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">layer_norm</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">LayerNorm</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mf">1e-6</span><span class="p">)</span>
-    
-      <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-    
-          <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">n_head</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">d_k</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">d_v</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">n_head</span>
-          <span class="n">sz_b</span><span class="p">,</span> <span class="n">len_q</span><span class="p">,</span> <span class="n">len_k</span><span class="p">,</span> <span class="n">len_v</span> <span class="o">=</span> <span class="n">q</span><span class="p">.</span><span class="nf">size</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="n">q</span><span class="p">.</span><span class="nf">size</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">k</span><span class="p">.</span><span class="nf">size</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">v</span><span class="p">.</span><span class="nf">size</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
-    
-          <span class="n">residual</span> <span class="o">=</span> <span class="n">q</span>
-    
-          <span class="c1"># Pass through the pre-attention projection: b x lq x (n*dv)
-</span>          <span class="c1"># Separate different heads: b x lq x n x dv
-</span>          <span class="n">q</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">w_qs</span><span class="p">(</span><span class="n">q</span><span class="p">).</span><span class="nf">view</span><span class="p">(</span><span class="n">sz_b</span><span class="p">,</span> <span class="n">len_q</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">)</span>
-          <span class="n">k</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">w_ks</span><span class="p">(</span><span class="n">k</span><span class="p">).</span><span class="nf">view</span><span class="p">(</span><span class="n">sz_b</span><span class="p">,</span> <span class="n">len_k</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">)</span>
-          <span class="n">v</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">w_vs</span><span class="p">(</span><span class="n">v</span><span class="p">).</span><span class="nf">view</span><span class="p">(</span><span class="n">sz_b</span><span class="p">,</span> <span class="n">len_v</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_v</span><span class="p">)</span>
-    
-          <span class="c1"># Transpose for attention dot product: b x n x lq x dv
-</span>          <span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">q</span><span class="p">.</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="n">k</span><span class="p">.</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span> <span class="n">v</span><span class="p">.</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
-    
-          <span class="k">if</span> <span class="n">mask</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
-              <span class="n">mask</span> <span class="o">=</span> <span class="n">mask</span><span class="p">.</span><span class="nf">unsqueeze</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>   <span class="c1"># For head axis broadcasting.
-</span>    
-          <span class="n">q</span><span class="p">,</span> <span class="n">attn</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">attention</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="n">mask</span><span class="p">)</span>
-    
-          <span class="c1">#q (sz_b,n_head,N=len_q,d_k)
-</span>          <span class="c1">#k (sz_b,n_head,N=len_k,d_k)
-</span>          <span class="c1">#v (sz_b,n_head,N=len_v,d_v)
-</span>    
-          <span class="c1"># Transpose to move the head dimension back: b x lq x n x dv
-</span>          <span class="c1"># Combine the last two dimensions to concatenate all the heads together: b x lq x (n*dv)
-</span>          <span class="n">q</span> <span class="o">=</span> <span class="n">q</span><span class="p">.</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">).</span><span class="nf">contiguous</span><span class="p">().</span><span class="nf">view</span><span class="p">(</span><span class="n">sz_b</span><span class="p">,</span> <span class="n">len_q</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-    
-          <span class="c1">#q (sz_b,len_q,n_head,N * d_k)
-</span>          <span class="n">q</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">dropout</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="nf">fc</span><span class="p">(</span><span class="n">q</span><span class="p">))</span>
-          <span class="n">q</span> <span class="o">+=</span> <span class="n">residual</span>
-    
-          <span class="n">q</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">layer_norm</span><span class="p">(</span><span class="n">q</span><span class="p">)</span>
-    
-          <span class="k">return</span> <span class="n">q</span><span class="p">,</span> <span class="n">attn</span>
-</code></pre></div>    </div>
-  </li>
-</ul>
-
-<h3 id="14-positional-encoding">1.4 <strong>Positional Encoding</strong></h3>
-
-<ul>
-  <li>
-    <p>原始positional encoding</p>
-
-    <p>现在的self-attention中没有位置的信息，一个单词向量的“近在咫尺”位置的单词向量和“远在天涯”位置的单词向量效果是一样的。所以在self-attention原来的paper中，是这样解决的：人工对每个位置构建一个位置向量$p_i$，通过对其进行认为变换$W^p$，得到position embedding $e_i$:</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%204.png" alt="Untitled" /></p>
-
-    <p>在transformer论文中，position embedding的计算公式（$W^p$）为(左)，每个$PE(i)=e_i$的计算公式如下：</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%205.png" alt="Untitled" /></p>
-
-    <p>代码实现：</p>
-
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">class</span> <span class="nc">PositionalEncoding</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    
-      <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">,</span> <span class="n">n_position</span><span class="o">=</span><span class="mi">200</span><span class="p">):</span>
-          <span class="nf">super</span><span class="p">(</span><span class="n">PositionalEncoding</span><span class="p">,</span> <span class="n">self</span><span class="p">).</span><span class="nf">__init__</span><span class="p">()</span>
-    
-          <span class="c1"># Not a parameter（下面说明了这个的作用）
-</span>          <span class="n">self</span><span class="p">.</span><span class="nf">register_buffer</span><span class="p">(</span><span class="s">'pos_table'</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="nf">_get_sinusoid_encoding_table</span><span class="p">(</span><span class="n">n_position</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">))</span>
-    
-      <span class="k">def</span> <span class="nf">_get_sinusoid_encoding_table</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">n_position</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">):</span>
-          <span class="s">''' Sinusoid position encoding table '''</span>
-          <span class="c1"># TODO: make it with torch instead of numpy
-</span>  				<span class="c1"># d_hid：公式中的512，即文本的最大长度。总的来说是为了计算效率，所以把长度限制在了512。
-</span>          <span class="k">def</span> <span class="nf">get_position_angle_vec</span><span class="p">(</span><span class="n">position</span><span class="p">):</span>
-              <span class="k">return</span> <span class="p">[</span><span class="n">position</span> <span class="o">/</span> <span class="n">np</span><span class="p">.</span><span class="nf">power</span><span class="p">(</span><span class="mi">10000</span><span class="p">,</span> <span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="n">hid_j</span> <span class="o">//</span> <span class="mi">2</span><span class="p">)</span> <span class="o">/</span> <span class="n">d_hid</span><span class="p">)</span> <span class="k">for</span> <span class="n">hid_j</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">d_hid</span><span class="p">)]</span>
-    
-          <span class="n">sinusoid_table</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([</span><span class="nf">get_position_angle_vec</span><span class="p">(</span><span class="n">pos_i</span><span class="p">)</span> <span class="k">for</span> <span class="n">pos_i</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">n_position</span><span class="p">)])</span>
-          <span class="n">sinusoid_table</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">sin</span><span class="p">(</span><span class="n">sinusoid_table</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">::</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># dim 2i
-</span>          <span class="n">sinusoid_table</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">cos</span><span class="p">(</span><span class="n">sinusoid_table</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">])</span>  <span class="c1"># dim 2i+1
-</span>    
-          <span class="k">return</span> <span class="n">torch</span><span class="p">.</span><span class="nc">FloatTensor</span><span class="p">(</span><span class="n">sinusoid_table</span><span class="p">).</span><span class="nf">unsqueeze</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="c1">#(1,N,d)
-</span>    
-      <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
-          <span class="c1"># x(B,N,d)
-</span>          <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">self</span><span class="p">.</span><span class="n">pos_table</span><span class="p">[:,</span> <span class="p">:</span><span class="n">x</span><span class="p">.</span><span class="nf">size</span><span class="p">(</span><span class="mi">1</span><span class="p">)].</span><span class="nf">clone</span><span class="p">().</span><span class="nf">detach</span><span class="p">()</span>
-</code></pre></div>    </div>
-
-    <blockquote>
-      <p>注：<strong><code class="language-plaintext highlighter-rouge">[register_buffer()</code></strong> 是 <strong><code class="language-plaintext highlighter-rouge">nn.Module</code></strong> 类中的一个方法，它用于向模块添加一个持久缓冲区。这通常用于注册不应被视为模型参数的缓冲区。例如，BatchNorm 的 <strong><code class="language-plaintext highlighter-rouge">running_mean</code></strong> 不是参数，但它是持久状态的一部分<strong>1</strong>](https://zhuanlan.zhihu.com/p/100000785)<a href="https://zhuanlan.zhihu.com/p/464825510">。这意味着在模型训练时，该组参数不会更新（即调用 <strong><code class="language-plaintext highlighter-rouge">optimizer.step()</code></strong> 后该组参数不会变化，只能人为地改变它们的值），但在保存模型时，该组参数又作为模型参数不可或缺的一部分被保存<strong>2</strong></a>。</p>
-
-    </blockquote>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%206.png" alt="Untitled" /></p>
-  </li>
-</ul>
-
-<h3 id="15-self-attention-总结">1.5 self-attention 总结</h3>
-
-<ul>
-  <li>
-    <p>self-attention在sequence2sequence model里面是怎么使用</p>
-
-    <p>可以把Encoder-Decoder中的RNN用self-attention取代掉。</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.38.50.png" alt="截屏2023-05-07 16.38.50.png" /></p>
-  </li>
-  <li>
-    <p>对比self-attention和CNN的关系</p>
-
-    <p>self-attention是一种复杂化的CNN，在做CNN的时候是只考虑感受野里面的资讯。但是self-attention由attention找到相关的pixel，就好像是感受野的范围和大小是自动被学出来的，所以CNN可以看做是self-attention的特例。既然self-attention是更广义的CNN，则这个模型更加flexible。一个模型越flexible，训练它所需要的数据量就越多，所以在训练self-attention模型时就需要更多的数据，这一点在下面介绍的论文 ViT 中有印证，它需要的数据集是有3亿张图片的JFT-300，而如果不使用这么多数据而只使用ImageNet，则性能不如CNN。</p>
-  </li>
-</ul>
-
-<h2 id="2-transformer实现及代码">2. Transformer实现及代码</h2>
-
-<h3 id="21-transformer原理分析">2.1 Transformer原理分析</h3>
-
-<ul>
-  <li>
-    <p>Transformer算法步骤</p>
-
-    <p><strong>模型总览</strong></p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%207.png" alt="Untitled" /></p>
-
-    <p><strong>Encoder</strong></p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.56.16.png" alt="截屏2023-05-07 16.56.16.png" /></p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.57.17.png" alt="截屏2023-05-07 16.57.17.png" /></p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_17.20.06.png" alt="截屏2023-05-07 17.20.06.png" /></p>
-
-    <p>接着是一个Feed Forward的前馈网络和一个Add &amp; Norm Layer。代码如下：</p>
-
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">class</span> <span class="nc">PositionwiseFeedForward</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-      <span class="s">''' A two-feed-forward-layer module '''</span>
-    
-      <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">d_in</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
-          <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">w_1</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">d_in</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">)</span> <span class="c1"># position-wise
-</span>          <span class="n">self</span><span class="p">.</span><span class="n">w_2</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">d_hid</span><span class="p">,</span> <span class="n">d_in</span><span class="p">)</span> <span class="c1"># position-wise
-</span>          <span class="n">self</span><span class="p">.</span><span class="n">layer_norm</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">LayerNorm</span><span class="p">(</span><span class="n">d_in</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mf">1e-6</span><span class="p">)</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">)</span>
-    
-      <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
-    
-          <span class="n">residual</span> <span class="o">=</span> <span class="n">x</span>
-    
-          <span class="n">x</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">w_2</span><span class="p">(</span><span class="n">F</span><span class="p">.</span><span class="nf">relu</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="nf">w_1</span><span class="p">(</span><span class="n">x</span><span class="p">)))</span>
-          <span class="n">x</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">dropout</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-          <span class="n">x</span> <span class="o">+=</span> <span class="n">residual</span>
-    
-          <span class="n">x</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">layer_norm</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-    
-          <span class="k">return</span> <span class="n">x</span>
-</code></pre></div>    </div>
-
-    <p><strong>Decoder</strong></p>
-
-    <p>输入：输入包括2部分，第一部分是最下方是前一个time step的输出序列的 embedding $I$，再加上一个表示位置的Positional Encoding $E$，第二部分是encoder的输出。绿色的block中，首先是Masked Multi-Head Self-attention，masked的意思是使attention只会关注已经产生的输出sequence，即只保留$i-1$位置的输出序列（这里的输出序列指的是例如文本翻译得到的目标文本，而不是encoder的编码输出）。
-  Masked Multi-Head Self-attention之后紧接一个多头注意力层，它的Key和Value来自encoder，Query来自上一位置Decoder的的输出。</p>
-
-    <p>输出：最后有一个 Softmax 层计算下一个翻译单词的概率。</p>
-
-    <p>详解Masked Multi-Head Self-attention（对照前文attention的计算过程）（左），右图为Decoder的过程，绿色框外为mask掉的区域。</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%208.png" alt="Untitled" /></p>
-
-    <p><strong>测试</strong></p>
-
-    <ol>
-      <li>将输入通过encoder编码；</li>
-      <li>输入<Begin>，解码器输出 I 。</Begin></li>
-      <li>输入前面已经解码的<Begin>和 I，解码器输出have。</Begin></li>
-      <li>输入已经解码的<Begin>，I, have, a, cat，解码器输出解码结束标志位<end>，每次解码都会利用前面已经解码输出的所有单词嵌入信息。</end></Begin></li>
-    </ol>
-  </li>
-  <li>
-    <p>矩阵化Masked Multi-Head Self-attention</p>
-
-    <p><img src="__posts/images/2023-05-08-Transformer/Untitled%209.png" alt="Untitled" /></p>
-
-    <p>代码实现：<strong>ScaledDotProductAttention</strong></p>
-
-    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="k">class</span> <span class="nc">ScaledDotProductAttention</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-      <span class="s">''' Scaled Dot-Product Attention '''</span>
-    
-      <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">temperature</span><span class="p">,</span> <span class="n">attn_dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
-          <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">temperature</span> <span class="o">=</span> <span class="n">temperature</span>
-          <span class="n">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Dropout</span><span class="p">(</span><span class="n">attn_dropout</span><span class="p">)</span>
-    
-      <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-    
-          <span class="n">attn</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">matmul</span><span class="p">(</span><span class="n">q</span> <span class="o">/</span> <span class="n">self</span><span class="p">.</span><span class="n">temperature</span><span class="p">,</span> <span class="n">k</span><span class="p">.</span><span class="nf">transpose</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
-    
-          <span class="k">if</span> <span class="n">mask</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
-              <span class="n">attn</span> <span class="o">=</span> <span class="n">attn</span><span class="p">.</span><span class="nf">masked_fill</span><span class="p">(</span><span class="n">mask</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mf">1e9</span><span class="p">)</span>
-    
-          <span class="n">attn</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">dropout</span><span class="p">(</span><span class="n">F</span><span class="p">.</span><span class="nf">softmax</span><span class="p">(</span><span class="n">attn</span><span class="p">,</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">))</span>
-          <span class="n">output</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nf">matmul</span><span class="p">(</span><span class="n">attn</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
-    
-          <span class="k">return</span> <span class="n">output</span><span class="p">,</span> <span class="n">attn</span> <span class="c1"># 输出为预测结果z和attention值
-</span></code></pre></div>    </div>
-  </li>
-  <li>
-    <p>为什么第2个<strong>Multi-Head Self-attention</strong>的Query来自第1个Self-attention layer的输出，Key, Value来自Encoder的输出？</p>
-
-    <p>答;来自Transformer Encoder的输出，所以可以看做<strong>句子(Sequence)/图片(image)</strong>的<strong>内容信息(content，比如句意是：”我有一只猫”)。QUery</strong>表达了一种诉求：希望得到什么，可以看做<strong>引导信息(guide)</strong>。通过Multi-Head Self-attention结合在一起的过程就相当于是<strong>把我们需要的内容信息指导表达出来</strong>。</p>
-  </li>
-</ul>
-
-<h3 id="22-transformer顶层代码">2.2 Transformer顶层代码</h3>
-
-<p><strong>产生mask</strong></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">get_pad_mask</span><span class="p">(</span><span class="n">seq</span><span class="p">,</span> <span class="n">pad_idx</span><span class="p">):</span>
-    <span class="nf">return </span><span class="p">(</span><span class="n">seq</span> <span class="o">!=</span> <span class="n">pad_idx</span><span class="p">).</span><span class="nf">unsqueeze</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">get_subsequent_mask</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span>
-    <span class="s">''' For masking out the subsequent info. '''</span>
-    <span class="n">sz_b</span><span class="p">,</span> <span class="n">len_s</span> <span class="o">=</span> <span class="n">seq</span><span class="p">.</span><span class="nf">size</span><span class="p">()</span>
-    <span class="n">subsequent_mask</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">torch</span><span class="p">.</span><span class="nf">triu</span><span class="p">(</span>
-        <span class="n">torch</span><span class="p">.</span><span class="nf">ones</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="n">len_s</span><span class="p">,</span> <span class="n">len_s</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">seq</span><span class="p">.</span><span class="n">device</span><span class="p">),</span> <span class="n">diagonal</span><span class="o">=</span><span class="mi">1</span><span class="p">)).</span><span class="nf">bool</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">subsequent_mask</span>
-</code></pre></div></div>
-
-<blockquote>
-  <p>src_mask = get_pad_mask(src_seq, self.src_pad_idx)</p>
-
-  <p>用于产生Encoder的Mask，它是一列Bool值，负责把标点mask掉。</p>
-
-  <p>trg_mask = get_pad_mask(trg_seq, self.trg_pad_idx) &amp; get_subsequent_mask(trg_seq)</p>
-
-  <p>用于产生Decoder的Mask。它是一个矩阵，如图24中的Mask所示，功能已在上文介绍。</p>
-
-</blockquote>
-
-<p><strong>Encoder block：</strong></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">classEncoderLayer</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' Compose with two layers '''</span>
-
-		<span class="nf">def__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
-						<span class="s">"""
-							n_head：head数；d_model：最大句子的词个数；d_k,d_v：k,v向量维度
-						"""</span>
-		        <span class="nf">super</span><span class="p">(</span><span class="n">EncoderLayer</span><span class="p">,</span> <span class="n">self</span><span class="p">).</span><span class="nf">__init__</span><span class="p">()</span>
-		        <span class="n">self</span><span class="p">.</span><span class="n">slf_attn</span><span class="o">=</span> <span class="nc">MultiHeadAttention</span><span class="p">(</span><span class="n">n_head</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
-		        <span class="n">self</span><span class="p">.</span><span class="n">pos_ffn</span><span class="o">=</span> <span class="nc">PositionwiseFeedForward</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
-		
-		<span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">enc_input</span><span class="p">,</span> <span class="n">slf_attn_mask</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-		        <span class="n">enc_output</span><span class="p">,</span> <span class="n">enc_slf_attn</span><span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">slf_attn</span><span class="p">(</span><span class="n">enc_input</span><span class="p">,</span> <span class="n">enc_input</span><span class="p">,</span> <span class="n">enc_input</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="n">slf_attn_mask</span><span class="p">)</span>
-		        <span class="n">enc_output</span><span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">pos_ffn</span><span class="p">(</span><span class="n">enc_output</span><span class="p">)</span>
-		<span class="k">return</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">enc_slf_attn</span>
-</code></pre></div></div>
-
-<p><strong>Decoder block</strong></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">DecoderLayer</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' Compose with three layers '''</span>
-
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
-        <span class="nf">super</span><span class="p">(</span><span class="n">DecoderLayer</span><span class="p">,</span> <span class="n">self</span><span class="p">).</span><span class="nf">__init__</span><span class="p">()</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">slf_attn</span> <span class="o">=</span> <span class="nc">MultiHeadAttention</span><span class="p">(</span><span class="n">n_head</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">enc_attn</span> <span class="o">=</span> <span class="nc">MultiHeadAttention</span><span class="p">(</span><span class="n">n_head</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">pos_ffn</span> <span class="o">=</span> <span class="nc">PositionwiseFeedForward</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">dec_input</span><span class="p">,</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">slf_attn_mask</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">dec_enc_attn_mask</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
-        <span class="n">dec_output</span><span class="p">,</span> <span class="n">dec_slf_attn</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">slf_attn</span><span class="p">(</span><span class="n">dec_input</span><span class="p">,</span> <span class="n">dec_input</span><span class="p">,</span> <span class="n">dec_input</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="n">slf_attn_mask</span><span class="p">)</span>
-        <span class="n">dec_output</span><span class="p">,</span> <span class="n">dec_enc_attn</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">enc_attn</span><span class="p">(</span><span class="n">dec_output</span><span class="p">,</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">mask</span><span class="o">=</span><span class="n">dec_enc_attn_mask</span><span class="p">)</span>
-        <span class="n">dec_output</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">pos_ffn</span><span class="p">(</span><span class="n">dec_output</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">dec_output</span><span class="p">,</span> <span class="n">dec_slf_attn</span><span class="p">,</span> <span class="n">dec_enc_attn</span>
-</code></pre></div></div>
-
-<p><strong>Encoder:</strong></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Encoder</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' A encoder model with self attention mechanism. '''</span>
-
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span>
-            <span class="n">self</span><span class="p">,</span> <span class="n">n_src_vocab</span><span class="p">,</span> <span class="n">d_word_vec</span><span class="p">,</span> <span class="n">n_layers</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span>
-            <span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">pad_idx</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">n_position</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">scale_emb</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
-
-        <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
-
-        <span class="n">self</span><span class="p">.</span><span class="n">src_word_emb</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Embedding</span><span class="p">(</span><span class="n">n_src_vocab</span><span class="p">,</span> <span class="n">d_word_vec</span><span class="p">,</span> <span class="n">padding_idx</span><span class="o">=</span><span class="n">pad_idx</span><span class="p">)</span> <span class="c1"># 补充说明
-</span>        <span class="n">self</span><span class="p">.</span><span class="n">position_enc</span> <span class="o">=</span> <span class="nc">PositionalEncoding</span><span class="p">(</span><span class="n">d_word_vec</span><span class="p">,</span> <span class="n">n_position</span><span class="o">=</span><span class="n">n_position</span><span class="p">)</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Dropout</span><span class="p">(</span><span class="n">p</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">layer_stack</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">ModuleList</span><span class="p">([</span>
-            <span class="nc">EncoderLayer</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">n_layers</span><span class="p">)])</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">layer_norm</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">LayerNorm</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">eps</span><span class="o">=</span><span class="mf">1e-6</span><span class="p">)</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">scale_emb</span> <span class="o">=</span> <span class="n">scale_emb</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">d_model</span> <span class="o">=</span> <span class="n">d_model</span>
-
-    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">src_seq</span><span class="p">,</span> <span class="n">src_mask</span><span class="p">,</span> <span class="n">return_attns</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
-
-        <span class="n">enc_slf_attn_list</span> <span class="o">=</span> <span class="p">[]</span>
-
-        <span class="c1"># -- Forward
-</span>        <span class="n">enc_output</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">src_word_emb</span><span class="p">(</span><span class="n">src_seq</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">self</span><span class="p">.</span><span class="n">scale_emb</span><span class="p">:</span>
-            <span class="n">enc_output</span> <span class="o">*=</span> <span class="n">self</span><span class="p">.</span><span class="n">d_model</span> <span class="o">**</span> <span class="mf">0.5</span>
-        <span class="n">enc_output</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">dropout</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="nf">position_enc</span><span class="p">(</span><span class="n">enc_output</span><span class="p">))</span>
-        <span class="n">enc_output</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">layer_norm</span><span class="p">(</span><span class="n">enc_output</span><span class="p">)</span>
-
-        <span class="k">for</span> <span class="n">enc_layer</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">layer_stack</span><span class="p">:</span>
-            <span class="n">enc_output</span><span class="p">,</span> <span class="n">enc_slf_attn</span> <span class="o">=</span> <span class="nf">enc_layer</span><span class="p">(</span><span class="n">enc_output</span><span class="p">,</span> <span class="n">slf_attn_mask</span><span class="o">=</span><span class="n">src_mask</span><span class="p">)</span>
-            <span class="n">enc_slf_attn_list</span> <span class="o">+=</span> <span class="p">[</span><span class="n">enc_slf_attn</span><span class="p">]</span> <span class="k">if</span> <span class="n">return_attns</span> <span class="k">else</span> <span class="p">[]</span>
-
-        <span class="k">if</span> <span class="n">return_attns</span><span class="p">:</span>
-            <span class="k">return</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">enc_slf_attn_list</span>
-        <span class="k">return</span> <span class="n">enc_output</span><span class="p">,</span>
-</code></pre></div></div>
-
-<blockquote>
-  <p>说明：
-1.nn.Embedding: 创建一个字典向量组成的矩阵，将句子输入转化为矩阵，例如：</p>
-
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <blockquote>
-          <p>embedding = nn.Embedding(10, 3) # 创建一个词典，一共十个词，每个词用维度为3的向量表示。
-input = torch.LongTensor([[1,2,4,5],[4,3,2,9]]) # 两个句子
-embedding(input)
-tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词索引为1，则这个向量就是词典中索引为1的行的向量值
-[-0.6431,  0.0748,  0.6969],
-[ 1.4970,  1.3448, -0.9685],
-[-0.3677, -2.7265, -0.1685]],
-     [[ 1.4970,  1.3448, -0.9685],
-     [ 0.4362, -0.4004,  0.9400],
-     [-0.6431,  0.0748,  0.6969],
-     [ 0.9124, -2.3616,  1.1151]]])</p>
-        </blockquote>
-      </blockquote>
-    </blockquote>
-
-  </blockquote>
-
-  <p>2.nn.LayerNorm(d_model, eps=1e-6)</p>
-
-  <p><img src="__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_22.28.50.png" alt="截屏2023-05-07 22.28.50.png" /></p>
-
-</blockquote>
-
-<p><strong>Decoder</strong></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Decoder</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' A decoder model with self attention mechanism. '''</span>
-
-    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">trg_seq</span><span class="p">,</span> <span class="n">trg_mask</span><span class="p">,</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">src_mask</span><span class="p">,</span> <span class="n">return_attns</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
-
-        <span class="n">dec_slf_attn_list</span><span class="p">,</span> <span class="n">dec_enc_attn_list</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[]</span>
-
-        <span class="c1"># -- Forward
-</span>        <span class="n">dec_output</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">dropout</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="nf">position_enc</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="nf">trg_word_emb</span><span class="p">(</span><span class="n">trg_seq</span><span class="p">)))</span>
-        <span class="n">dec_output</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">layer_norm</span><span class="p">(</span><span class="n">dec_output</span><span class="p">)</span>
-
-        <span class="k">for</span> <span class="n">dec_layer</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">layer_stack</span><span class="p">:</span>
-            <span class="n">dec_output</span><span class="p">,</span> <span class="n">dec_slf_attn</span><span class="p">,</span> <span class="n">dec_enc_attn</span> <span class="o">=</span> <span class="nf">dec_layer</span><span class="p">(</span>
-                <span class="n">dec_output</span><span class="p">,</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">slf_attn_mask</span><span class="o">=</span><span class="n">trg_mask</span><span class="p">,</span> <span class="n">dec_enc_attn_mask</span><span class="o">=</span><span class="n">src_mask</span><span class="p">)</span>
-            <span class="n">dec_slf_attn_list</span> <span class="o">+=</span> <span class="p">[</span><span class="n">dec_slf_attn</span><span class="p">]</span> <span class="k">if</span> <span class="n">return_attns</span> <span class="k">else</span> <span class="p">[]</span>
-            <span class="n">dec_enc_attn_list</span> <span class="o">+=</span> <span class="p">[</span><span class="n">dec_enc_attn</span><span class="p">]</span> <span class="k">if</span> <span class="n">return_attns</span> <span class="k">else</span> <span class="p">[]</span>
-
-        <span class="k">if</span> <span class="n">return_attns</span><span class="p">:</span>
-            <span class="k">return</span> <span class="n">dec_output</span><span class="p">,</span> <span class="n">dec_slf_attn_list</span><span class="p">,</span> <span class="n">dec_enc_attn_list</span>
-        <span class="k">return</span> <span class="n">dec_output</span><span class="p">,</span>
-</code></pre></div></div>
-
-<p><strong>整体Transformer</strong></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Transformer</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' A sequence to sequence model with attention mechanism. '''</span>
-
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span>
-            <span class="n">self</span><span class="p">,</span> <span class="n">n_src_vocab</span><span class="p">,</span> <span class="n">n_trg_vocab</span><span class="p">,</span> <span class="n">src_pad_idx</span><span class="p">,</span> <span class="n">trg_pad_idx</span><span class="p">,</span>
-            <span class="n">d_word_vec</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span> <span class="n">d_model</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span> <span class="n">d_inner</span><span class="o">=</span><span class="mi">2048</span><span class="p">,</span>
-            <span class="n">n_layers</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">n_head</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">d_k</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">d_v</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">n_position</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span>
-            <span class="n">trg_emb_prj_weight_sharing</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">emb_src_trg_weight_sharing</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
-            <span class="n">scale_emb_or_prj</span><span class="o">=</span><span class="s">'prj'</span><span class="p">):</span>
-
-        <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
-
-        <span class="n">self</span><span class="p">.</span><span class="n">src_pad_idx</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">trg_pad_idx</span> <span class="o">=</span> <span class="n">src_pad_idx</span><span class="p">,</span> <span class="n">trg_pad_idx</span>
-
-        <span class="c1"># In section 3.4 of paper "Attention Is All You Need", there is such detail:
-</span>        <span class="c1"># "In our model, we share the same weight matrix between the two
-</span>        <span class="c1"># embedding layers and the pre-softmax linear transformation...
-</span>        <span class="c1"># In the embedding layers, we multiply those weights by \sqrt{d_model}".
-</span>        <span class="c1">#
-</span>        <span class="c1"># Options here:
-</span>        <span class="c1">#   'emb': multiply \sqrt{d_model} to embedding output
-</span>        <span class="c1">#   'prj': multiply (\sqrt{d_model} ^ -1) to linear projection output
-</span>        <span class="c1">#   'none': no multiplication
-</span>
-        <span class="k">assert</span> <span class="n">scale_emb_or_prj</span> <span class="ow">in</span> <span class="p">[</span><span class="s">'emb'</span><span class="p">,</span> <span class="s">'prj'</span><span class="p">,</span> <span class="s">'none'</span><span class="p">]</span>
-        <span class="n">scale_emb</span> <span class="o">=</span> <span class="p">(</span><span class="n">scale_emb_or_prj</span> <span class="o">==</span> <span class="s">'emb'</span><span class="p">)</span> <span class="k">if</span> <span class="n">trg_emb_prj_weight_sharing</span> <span class="k">else</span> <span class="bp">False</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">scale_prj</span> <span class="o">=</span> <span class="p">(</span><span class="n">scale_emb_or_prj</span> <span class="o">==</span> <span class="s">'prj'</span><span class="p">)</span> <span class="k">if</span> <span class="n">trg_emb_prj_weight_sharing</span> <span class="k">else</span> <span class="bp">False</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">d_model</span> <span class="o">=</span> <span class="n">d_model</span>
-
-        <span class="n">self</span><span class="p">.</span><span class="n">encoder</span> <span class="o">=</span> <span class="nc">Encoder</span><span class="p">(</span>
-            <span class="n">n_src_vocab</span><span class="o">=</span><span class="n">n_src_vocab</span><span class="p">,</span> <span class="n">n_position</span><span class="o">=</span><span class="n">n_position</span><span class="p">,</span>
-            <span class="n">d_word_vec</span><span class="o">=</span><span class="n">d_word_vec</span><span class="p">,</span> <span class="n">d_model</span><span class="o">=</span><span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="o">=</span><span class="n">d_inner</span><span class="p">,</span>
-            <span class="n">n_layers</span><span class="o">=</span><span class="n">n_layers</span><span class="p">,</span> <span class="n">n_head</span><span class="o">=</span><span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="o">=</span><span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="o">=</span><span class="n">d_v</span><span class="p">,</span>
-            <span class="n">pad_idx</span><span class="o">=</span><span class="n">src_pad_idx</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">,</span> <span class="n">scale_emb</span><span class="o">=</span><span class="n">scale_emb</span><span class="p">)</span>
-
-        <span class="n">self</span><span class="p">.</span><span class="n">decoder</span> <span class="o">=</span> <span class="nc">Decoder</span><span class="p">(</span>
-            <span class="n">n_trg_vocab</span><span class="o">=</span><span class="n">n_trg_vocab</span><span class="p">,</span> <span class="n">n_position</span><span class="o">=</span><span class="n">n_position</span><span class="p">,</span>
-            <span class="n">d_word_vec</span><span class="o">=</span><span class="n">d_word_vec</span><span class="p">,</span> <span class="n">d_model</span><span class="o">=</span><span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="o">=</span><span class="n">d_inner</span><span class="p">,</span>
-            <span class="n">n_layers</span><span class="o">=</span><span class="n">n_layers</span><span class="p">,</span> <span class="n">n_head</span><span class="o">=</span><span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="o">=</span><span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="o">=</span><span class="n">d_v</span><span class="p">,</span>
-            <span class="n">pad_idx</span><span class="o">=</span><span class="n">trg_pad_idx</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">,</span> <span class="n">scale_emb</span><span class="o">=</span><span class="n">scale_emb</span><span class="p">)</span>
-
-        <span class="n">self</span><span class="p">.</span><span class="n">trg_word_prj</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">Linear</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">n_trg_vocab</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-
-        <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="nf">parameters</span><span class="p">():</span>
-            <span class="k">if</span> <span class="n">p</span><span class="p">.</span><span class="nf">dim</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-                <span class="n">nn</span><span class="p">.</span><span class="n">init</span><span class="p">.</span><span class="nf">xavier_uniform_</span><span class="p">(</span><span class="n">p</span><span class="p">)</span> 
-
-        <span class="k">assert</span> <span class="n">d_model</span> <span class="o">==</span> <span class="n">d_word_vec</span><span class="p">,</span> \
-        <span class="s">'To facilitate the residual connections, </span><span class="se">\
-</span><span class="s">         the dimensions of all module outputs shall be the same.'</span>
-
-        <span class="k">if</span> <span class="n">trg_emb_prj_weight_sharing</span><span class="p">:</span>
-            <span class="c1"># Share the weight between target word embedding &amp; last dense layer
-</span>            <span class="n">self</span><span class="p">.</span><span class="n">trg_word_prj</span><span class="p">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">decoder</span><span class="p">.</span><span class="n">trg_word_emb</span><span class="p">.</span><span class="n">weight</span>
-
-        <span class="k">if</span> <span class="n">emb_src_trg_weight_sharing</span><span class="p">:</span>
-            <span class="n">self</span><span class="p">.</span><span class="n">encoder</span><span class="p">.</span><span class="n">src_word_emb</span><span class="p">.</span><span class="n">weight</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">decoder</span><span class="p">.</span><span class="n">trg_word_emb</span><span class="p">.</span><span class="n">weight</span>
-
-    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">src_seq</span><span class="p">,</span> <span class="n">trg_seq</span><span class="p">):</span>
-
-        <span class="n">src_mask</span> <span class="o">=</span> <span class="nf">get_pad_mask</span><span class="p">(</span><span class="n">src_seq</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">src_pad_idx</span><span class="p">)</span>
-        <span class="n">trg_mask</span> <span class="o">=</span> <span class="nf">get_pad_mask</span><span class="p">(</span><span class="n">trg_seq</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">trg_pad_idx</span><span class="p">)</span> <span class="o">&amp;</span> <span class="nf">get_subsequent_mask</span><span class="p">(</span><span class="n">trg_seq</span><span class="p">)</span>
-
-        <span class="n">enc_output</span><span class="p">,</span> <span class="o">*</span><span class="n">_</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">encoder</span><span class="p">(</span><span class="n">src_seq</span><span class="p">,</span> <span class="n">src_mask</span><span class="p">)</span>
-        <span class="n">dec_output</span><span class="p">,</span> <span class="o">*</span><span class="n">_</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">decoder</span><span class="p">(</span><span class="n">trg_seq</span><span class="p">,</span> <span class="n">trg_mask</span><span class="p">,</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">src_mask</span><span class="p">)</span>
-        <span class="n">seq_logit</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">trg_word_prj</span><span class="p">(</span><span class="n">dec_output</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">self</span><span class="p">.</span><span class="n">scale_prj</span><span class="p">:</span>
-            <span class="n">seq_logit</span> <span class="o">*=</span> <span class="n">self</span><span class="p">.</span><span class="n">d_model</span> <span class="o">**</span> <span class="o">-</span><span class="mf">0.5</span>
-
-        <span class="k">return</span> <span class="n">seq_logit</span><span class="p">.</span><span class="nf">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">seq_logit</span><span class="p">.</span><span class="nf">size</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
-</code></pre></div></div>]]></content><author><name>Albert Einstein</name></author><summary type="html"><![CDATA[an example of a distill-style blog post and main elements]]></summary></entry><entry><title type="html">a post with github metadata</title><link href="https://jy-stdio.github.io/blog/2020/github-metadata/" rel="alternate" type="text/html" title="a post with github metadata" /><published>2020-09-28T21:01:00+00:00</published><updated>2020-09-28T21:01:00+00:00</updated><id>https://jy-stdio.github.io/blog/2020/github-metadata</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2020/github-metadata/"><![CDATA[<p>A sample blog page that demonstrates the accessing of github meta data.</p>
+This line is only separated by a single newline, so it’s a separate line in the <em>same paragraph</em>.</p>]]></content><author><name>Albert Einstein</name></author><summary type="html"><![CDATA[an example of a distill-style blog post and main elements]]></summary></entry><entry><title type="html">a post with github metadata</title><link href="https://jy-stdio.github.io/blog/2020/github-metadata/" rel="alternate" type="text/html" title="a post with github metadata" /><published>2020-09-28T21:01:00+00:00</published><updated>2020-09-28T21:01:00+00:00</updated><id>https://jy-stdio.github.io/blog/2020/github-metadata</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2020/github-metadata/"><![CDATA[<p>A sample blog page that demonstrates the accessing of github meta data.</p>
 
 <h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
 <ul>
@@ -934,4 +379,76 @@ MathJax will automatically number equations:</p>
 
 <p>and by adding <code class="language-plaintext highlighter-rouge">\label{...}</code> inside the equation environment, we can now refer to the equation using <code class="language-plaintext highlighter-rouge">\eqref</code>.</p>
 
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="math" /><summary type="html"><![CDATA[an example of a blog post with some math]]></summary></entry></feed>
+<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="math" /><summary type="html"><![CDATA[an example of a blog post with some math]]></summary></entry><entry><title type="html">a post with code</title><link href="https://jy-stdio.github.io/blog/2015/code/" rel="alternate" type="text/html" title="a post with code" /><published>2015-07-15T15:09:00+00:00</published><updated>2015-07-15T15:09:00+00:00</updated><id>https://jy-stdio.github.io/blog/2015/code</id><content type="html" xml:base="https://jy-stdio.github.io/blog/2015/code/"><![CDATA[<p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
+It supports more than 100 languages.
+This example is in C++.
+All you have to do is wrap your code in markdown code tags:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">c++
+</span><span class="n">code</span> <span class="n">code</span> <span class="n">code</span>
+<span class="p">```</span>
+</code></pre></div></div>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>By default, it does not display line numbers. If you want to display line numbers for every code block, you can set <code class="language-plaintext highlighter-rouge">kramdown.syntax_highlighter_opts.block.line_numbers</code> to true in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
+
+<p>If you want to display line numbers for a specific code block, all you have to do is wrap your code in a liquid tag:</p>
+
+<p>{% highlight c++ linenos %}  <br /> code code code <br /> {% endhighlight %}</p>
+
+<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
+Produces something like this:</p>
+
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
+
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
+
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
+
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>]]></content><author><name></name></author><category term="sample-posts" /><category term="formatting" /><category term="code" /><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry></feed>
