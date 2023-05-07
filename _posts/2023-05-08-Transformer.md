@@ -85,11 +85,11 @@ date: May 6, 2023, author: @Jiyao Liu
     
     RNN很不容易并行化：必须逐个元素计算（左1）；CNN代替RNN实现并行计算，但是只能考虑有限内容，通过多堆叠几层CNN，使得CNN的感受野变大，如下图：
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled.png)
     
     使用self-attention代替，可以减少堆叠CNN filter，并且可以实现并行化计算的bi-directional seq2seq。
     
-    ![截屏2023-05-07 15.04.13.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png)
+    ![截屏2023-05-07 15.04.13.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png)
     
 
 ### 1.2 Self-attention
@@ -99,33 +99,33 @@ date: May 6, 2023, author: @Jiyao Liu
     (3个不同的transformation matrix $W^q,W^k,W^v$)
     首先计算q,k,v：
     
-    ![截屏2023-05-07 15.05.25.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.05.25.png)
+    ![截屏2023-05-07 15.05.25.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.05.25.png)
     
     接着计算每个$q_j$和每个$k_i$的attention $\alpha_{i,j}$：
     
-    ![截屏2023-05-07 15.07.42.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.07.42.png)
+    ![截屏2023-05-07 15.07.42.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.07.42.png)
     
     然后对每个$\alpha_{j,i}$取softmax：
     
-    ![截屏2023-05-07 15.13.22.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.13.22.png)
+    ![截屏2023-05-07 15.13.22.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.13.22.png)
     
     最终计算attention $\alpha$和value $v$的加权和，即输出b：
     
-    ![截屏2023-05-07 15.15.31.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.15.31.png)
+    ![截屏2023-05-07 15.15.31.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.15.31.png)
     
 - 矩阵化self-attention计算过程
     
     首先计算q，k，v
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%201.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%201.png)
     
     接着计算attention $\alpha$：
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%202.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%202.png)
     
     总的计算过程可以表示为：
     
-    ![截屏2023-05-07 15.49.05.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.49.05.png)
+    ![截屏2023-05-07 15.49.05.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.49.05.png)
     
 
 ### 1.3 Multi-head self-attention
@@ -134,11 +134,11 @@ date: May 6, 2023, author: @Jiyao Liu
     
     a乘以不同的W得到多个QKV，通过多个QKV计算得到多个$b^{i,j}$，在乘以$W^0$得到最终的$b^i$。
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%203.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%203.png)
     
     这里有一组Multi-head Self-attention的解果，其中绿色部分是一组query和key，红色部分是另外一组query和key，可以发现绿色部分其实更关注global的信息，而红色部分其实更关注local的信息。
     
-    ![%E6%88%AA%E5%B1%8F2023-05-07_16.02.45](https://ossjiyaoliu.oss-cn-beijing.aliyuncs.com/uPic/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.02.45.png)
+    ![%E6%88%AA%E5%B1%8F2023-05-07_16.02.45](__posts/images/2023-05-08-Transformer/%E6%88%AA%E5%B1%8F2023-05-07_16.02.45.png)
     
     代码实现：
     
@@ -211,11 +211,11 @@ date: May 6, 2023, author: @Jiyao Liu
     
     现在的self-attention中没有位置的信息，一个单词向量的“近在咫尺”位置的单词向量和“远在天涯”位置的单词向量效果是一样的。所以在self-attention原来的paper中，是这样解决的：人工对每个位置构建一个位置向量$p_i$，通过对其进行认为变换$W^p$，得到position embedding $e_i$:
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%204.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%204.png)
     
     在transformer论文中，position embedding的计算公式（$W^p$）为(左)，每个$PE(i)=e_i$的计算公式如下：
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%205.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%205.png)
     
     代码实现：
     
@@ -249,7 +249,7 @@ date: May 6, 2023, author: @Jiyao Liu
     > 注：**`[register_buffer()`** 是 **`nn.Module`** 类中的一个方法，它用于向模块添加一个持久缓冲区。这通常用于注册不应被视为模型参数的缓冲区。例如，BatchNorm 的 **`running_mean`** 不是参数，但它是持久状态的一部分**1**](https://zhuanlan.zhihu.com/p/100000785)[。这意味着在模型训练时，该组参数不会更新（即调用 **`optimizer.step()`** 后该组参数不会变化，只能人为地改变它们的值），但在保存模型时，该组参数又作为模型参数不可或缺的一部分被保存**2**](https://zhuanlan.zhihu.com/p/464825510)。
     > 
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%206.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%206.png)
     
 
 ### 1.5 self-attention 总结
@@ -258,7 +258,7 @@ date: May 6, 2023, author: @Jiyao Liu
     
     可以把Encoder-Decoder中的RNN用self-attention取代掉。
     
-    ![截屏2023-05-07 16.38.50.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.38.50.png)
+    ![截屏2023-05-07 16.38.50.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.38.50.png)
     
 - 对比self-attention和CNN的关系
     
@@ -273,15 +273,15 @@ date: May 6, 2023, author: @Jiyao Liu
     
     **模型总览**
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%207.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%207.png)
     
     **Encoder**
     
-    ![截屏2023-05-07 16.56.16.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.56.16.png)
+    ![截屏2023-05-07 16.56.16.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.56.16.png)
     
-    ![截屏2023-05-07 16.57.17.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.57.17.png)
+    ![截屏2023-05-07 16.57.17.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_16.57.17.png)
     
-    ![截屏2023-05-07 17.20.06.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_17.20.06.png)
+    ![截屏2023-05-07 17.20.06.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_17.20.06.png)
     
     接着是一个Feed Forward的前馈网络和一个Add & Norm Layer。代码如下：
     
@@ -318,7 +318,7 @@ date: May 6, 2023, author: @Jiyao Liu
     
     详解Masked Multi-Head Self-attention（对照前文attention的计算过程）（左），右图为Decoder的过程，绿色框外为mask掉的区域。
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%208.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%208.png)
     
     **测试**
     
@@ -328,7 +328,7 @@ date: May 6, 2023, author: @Jiyao Liu
     4. 输入已经解码的<Begin>，I, have, a, cat，解码器输出解码结束标志位<end>，每次解码都会利用前面已经解码输出的所有单词嵌入信息。
 - 矩阵化Masked Multi-Head Self-attention
     
-    ![Untitled](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/Untitled%209.png)
+    ![Untitled](__posts/images/2023-05-08-Transformer/Untitled%209.png)
     
     代码实现：**ScaledDotProductAttention**
     
@@ -485,7 +485,7 @@ class Encoder(nn.Module):
 > 
 > 2.nn.LayerNorm(d_model, eps=1e-6)
 > 
-> ![截屏2023-05-07 22.28.50.png](Transformer%20e9fb5ee805684bb7a11328e8ae0bef99/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_22.28.50.png)
+> ![截屏2023-05-07 22.28.50.png](__posts/images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_22.28.50.png)
 > 
 
 **Decoder**
