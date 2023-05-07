@@ -1,9 +1,9 @@
 ---
-layout: distill
-title: a distill-style blog post
+layout: xxxxxx
+title: xxxxxx
 description: an example of a distill-style blog post and main elements
 giscus_comments: true
-date: 2021-05-22
+date: 2023-05-22
 
 authors:
   - name: Albert Einstein
