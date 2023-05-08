@@ -37,14 +37,14 @@ date: May 6, 2023, author: @Jiyao Liu
     
     <!--     ![Untitled](images/2023-05-08-Transformer/Untitled.png) -->
     
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="_posts/images/2023-05-08-Transformer/Untitled.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    ddddd
-</div>
+	<div class="row mt-3">
+	    <div class="col-sm mt-3 mt-md-0">
+		{% include figure.html path="_posts/images/2023-05-08-Transformer/Untitled.png" class="img-fluid rounded z-depth-1" %}
+	    </div>
+	</div>
+	<div class="caption">
+	    ddddd
+	</div>
     
     使用self-attention代替，可以减少堆叠CNN filter，并且可以实现并行化计算的bi-directional seq2seq。
     
