@@ -175,13 +175,32 @@
 
     <p>RNN很不容易并行化：必须逐个元素计算（左1）；CNN代替RNN实现并行计算，但是只能考虑有限内容，通过多堆叠几层CNN，使得CNN的感受野变大，如下图：</p>
 
-    <p><img src="images/2023-05-08-Transformer/Untitled.png" alt="Untitled"></p>
+    <p><!--     ![Untitled](images/2023-05-08-Transformer/Untitled.png) --></p>
+    <figure>
 
-    <p>使用self-attention代替，可以减少堆叠CNN filter，并且可以实现并行化计算的bi-directional seq2seq。</p>
+<picture>
+    
+  <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/_posts/images/2023-05-08-Transformer/Untitled-480.webp"></source>
+  <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/_posts/images/2023-05-08-Transformer/Untitled-800.webp"></source>
+  <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/_posts/images/2023-05-08-Transformer/Untitled-1400.webp"></source>
+    
 
-    <p><img src="images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png" alt="截屏2023-05-07 15.04.13.png"></p>
+  <!-- Fallback to the original file -->
+  <img src="/_posts/images/2023-05-08-Transformer/Untitled.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+</picture>
+
+</figure>
   </li>
 </ul>
+<p>&lt;/figure&gt;</p>
+
+<p>A simple, elegant caption looks good between image rows, after each row, or doesn’t have to be there at all.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>使用self-attention代替，可以减少堆叠CNN filter，并且可以实现并行化计算的bi-directional seq2seq。
+
+![截屏2023-05-07 15.04.13.png](images/2023-05-08-Transformer/%25E6%2588%25AA%25E5%25B1%258F2023-05-07_15.04.13.png)
+</code></pre></div></div>
 
 <h3 id="12-self-attention">1.2 Self-attention</h3>
 
@@ -747,7 +766,7 @@ tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Jiyao  Liu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-Last updated: May 07, 2023.
+Last updated: May 08, 2023.
       </div>
     </footer>
 
