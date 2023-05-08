@@ -36,8 +36,13 @@ date: May 6, 2023, author: @Jiyao Liu
     RNN很不容易并行化：必须逐个元素计算（左1）；CNN代替RNN实现并行计算，但是只能考虑有限内容，通过多堆叠几层CNN，使得CNN的感受野变大，如下图：
     
     <!--     ![Untitled](images/2023-05-08-Transformer/Untitled.png) -->
+    
     {% include figure.html path="_posts/images/2023-05-08-Transformer/Untitled.png" class="img-fluid rounded z-depth-1" %}
 A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+
+	{% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
+	{% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
+	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
     
     使用self-attention代替，可以减少堆叠CNN filter，并且可以实现并行化计算的bi-directional seq2seq。
     
