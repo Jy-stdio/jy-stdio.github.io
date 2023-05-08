@@ -34,7 +34,6 @@ date: May 6, 2023, author: @Jiyao Liu
     如果假设是一个bi-directional的RNN，那当输出任意$b_{任意}$任意时，默认$a_1,a_2,a_3,a_4$都已经看过了
     
     RNN很不容易并行化：必须逐个元素计算（左1）；CNN代替RNN实现并行计算，但是只能考虑有限内容，通过多堆叠几层CNN，使得CNN的感受野变大，如下图：
-    
     <!--     ![Untitled](images/2023-05-08-Transformer/Untitled.png) -->
     
 	<div class="row mt-3">
