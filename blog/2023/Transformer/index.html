@@ -23,7 +23,7 @@
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
@@ -282,12 +282,12 @@
 
     <div class="language-python highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code>  <span class="k">class</span> <span class="nc">MultiHeadAttention</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-      <span class="s">''' Multi-Head Attention module '''</span>
+      <span class="sh">'''</span><span class="s"> Multi-Head Attention module </span><span class="sh">'''</span>
     
       <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
-  				<span class="s">"""
+  				<span class="sh">"""</span><span class="s">
   				n_head：head数；d_model：最大句子的词个数；d_k,d_v：k,v向量维度
-  				"""</span>
+  				</span><span class="sh">"""</span>
           <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
     
           <span class="n">self</span><span class="p">.</span><span class="n">n_head</span> <span class="o">=</span> <span class="n">n_head</span>
@@ -368,10 +368,10 @@
           <span class="nf">super</span><span class="p">(</span><span class="n">PositionalEncoding</span><span class="p">,</span> <span class="n">self</span><span class="p">).</span><span class="nf">__init__</span><span class="p">()</span>
     
           <span class="c1"># Not a parameter（下面说明了这个的作用）
-</span>          <span class="n">self</span><span class="p">.</span><span class="nf">register_buffer</span><span class="p">(</span><span class="s">'pos_table'</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="nf">_get_sinusoid_encoding_table</span><span class="p">(</span><span class="n">n_position</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">))</span>
+</span>          <span class="n">self</span><span class="p">.</span><span class="nf">register_buffer</span><span class="p">(</span><span class="sh">'</span><span class="s">pos_table</span><span class="sh">'</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="nf">_get_sinusoid_encoding_table</span><span class="p">(</span><span class="n">n_position</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">))</span>
     
       <span class="k">def</span> <span class="nf">_get_sinusoid_encoding_table</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">n_position</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">):</span>
-          <span class="s">''' Sinusoid position encoding table '''</span>
+          <span class="sh">'''</span><span class="s"> Sinusoid position encoding table </span><span class="sh">'''</span>
           <span class="c1"># TODO: make it with torch instead of numpy
 </span>  				<span class="c1"># d_hid：公式中的512，即文本的最大长度。总的来说是为了计算效率，所以把长度限制在了512。
 </span>          <span class="k">def</span> <span class="nf">get_position_angle_vec</span><span class="p">(</span><span class="n">position</span><span class="p">):</span>
@@ -438,7 +438,7 @@
 
     <div class="language-python highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code>  <span class="k">class</span> <span class="nc">PositionwiseFeedForward</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-      <span class="s">''' A two-feed-forward-layer module '''</span>
+      <span class="sh">'''</span><span class="s"> A two-feed-forward-layer module </span><span class="sh">'''</span>
     
       <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">d_in</span><span class="p">,</span> <span class="n">d_hid</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
           <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
@@ -492,7 +492,7 @@
 
     <div class="language-python highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code>  <span class="k">class</span> <span class="nc">ScaledDotProductAttention</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-      <span class="s">''' Scaled Dot-Product Attention '''</span>
+      <span class="sh">'''</span><span class="s"> Scaled Dot-Product Attention </span><span class="sh">'''</span>
     
       <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">temperature</span><span class="p">,</span> <span class="n">attn_dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
           <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
@@ -527,7 +527,7 @@
     <span class="nf">return </span><span class="p">(</span><span class="n">seq</span> <span class="o">!=</span> <span class="n">pad_idx</span><span class="p">).</span><span class="nf">unsqueeze</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">get_subsequent_mask</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span>
-    <span class="s">''' For masking out the subsequent info. '''</span>
+    <span class="sh">'''</span><span class="s"> For masking out the subsequent info. </span><span class="sh">'''</span>
     <span class="n">sz_b</span><span class="p">,</span> <span class="n">len_s</span> <span class="o">=</span> <span class="n">seq</span><span class="p">.</span><span class="nf">size</span><span class="p">()</span>
     <span class="n">subsequent_mask</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="n">torch</span><span class="p">.</span><span class="nf">triu</span><span class="p">(</span>
         <span class="n">torch</span><span class="p">.</span><span class="nf">ones</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="n">len_s</span><span class="p">,</span> <span class="n">len_s</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">seq</span><span class="p">.</span><span class="n">device</span><span class="p">),</span> <span class="n">diagonal</span><span class="o">=</span><span class="mi">1</span><span class="p">)).</span><span class="nf">bool</span><span class="p">()</span>
@@ -548,12 +548,12 @@
 <p><strong>Encoder block：</strong></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">classEncoderLayer</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' Compose with two layers '''</span>
+    <span class="sh">'''</span><span class="s"> Compose with two layers </span><span class="sh">'''</span>
 
 		<span class="nf">def__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
-						<span class="s">"""
+						<span class="sh">"""</span><span class="s">
 							n_head：head数；d_model：最大句子的词个数；d_k,d_v：k,v向量维度
-						"""</span>
+						</span><span class="sh">"""</span>
 		        <span class="nf">super</span><span class="p">(</span><span class="n">EncoderLayer</span><span class="p">,</span> <span class="n">self</span><span class="p">).</span><span class="nf">__init__</span><span class="p">()</span>
 		        <span class="n">self</span><span class="p">.</span><span class="n">slf_attn</span><span class="o">=</span> <span class="nc">MultiHeadAttention</span><span class="p">(</span><span class="n">n_head</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
 		        <span class="n">self</span><span class="p">.</span><span class="n">pos_ffn</span><span class="o">=</span> <span class="nc">PositionwiseFeedForward</span><span class="p">(</span><span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="n">dropout</span><span class="p">)</span>
@@ -567,7 +567,7 @@
 <p><strong>Decoder block</strong></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">DecoderLayer</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' Compose with three layers '''</span>
+    <span class="sh">'''</span><span class="s"> Compose with three layers </span><span class="sh">'''</span>
 
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">d_model</span><span class="p">,</span> <span class="n">d_inner</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">):</span>
         <span class="nf">super</span><span class="p">(</span><span class="n">DecoderLayer</span><span class="p">,</span> <span class="n">self</span><span class="p">).</span><span class="nf">__init__</span><span class="p">()</span>
@@ -585,7 +585,7 @@
 <p><strong>Encoder:</strong></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Encoder</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' A encoder model with self attention mechanism. '''</span>
+    <span class="sh">'''</span><span class="s"> A encoder model with self attention mechanism. </span><span class="sh">'''</span>
 
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span>
             <span class="n">self</span><span class="p">,</span> <span class="n">n_src_vocab</span><span class="p">,</span> <span class="n">d_word_vec</span><span class="p">,</span> <span class="n">n_layers</span><span class="p">,</span> <span class="n">n_head</span><span class="p">,</span> <span class="n">d_k</span><span class="p">,</span> <span class="n">d_v</span><span class="p">,</span>
@@ -657,7 +657,7 @@ tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词
 <p><strong>Decoder</strong></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Decoder</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' A decoder model with self attention mechanism. '''</span>
+    <span class="sh">'''</span><span class="s"> A decoder model with self attention mechanism. </span><span class="sh">'''</span>
 
     <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">trg_seq</span><span class="p">,</span> <span class="n">trg_mask</span><span class="p">,</span> <span class="n">enc_output</span><span class="p">,</span> <span class="n">src_mask</span><span class="p">,</span> <span class="n">return_attns</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
 
@@ -681,14 +681,14 @@ tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词
 <p><strong>整体Transformer</strong></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Transformer</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
-    <span class="s">''' A sequence to sequence model with attention mechanism. '''</span>
+    <span class="sh">'''</span><span class="s"> A sequence to sequence model with attention mechanism. </span><span class="sh">'''</span>
 
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span>
             <span class="n">self</span><span class="p">,</span> <span class="n">n_src_vocab</span><span class="p">,</span> <span class="n">n_trg_vocab</span><span class="p">,</span> <span class="n">src_pad_idx</span><span class="p">,</span> <span class="n">trg_pad_idx</span><span class="p">,</span>
             <span class="n">d_word_vec</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span> <span class="n">d_model</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span> <span class="n">d_inner</span><span class="o">=</span><span class="mi">2048</span><span class="p">,</span>
             <span class="n">n_layers</span><span class="o">=</span><span class="mi">6</span><span class="p">,</span> <span class="n">n_head</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">d_k</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">d_v</span><span class="o">=</span><span class="mi">64</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span> <span class="n">n_position</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span>
             <span class="n">trg_emb_prj_weight_sharing</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">emb_src_trg_weight_sharing</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
-            <span class="n">scale_emb_or_prj</span><span class="o">=</span><span class="s">'prj'</span><span class="p">):</span>
+            <span class="n">scale_emb_or_prj</span><span class="o">=</span><span class="sh">'</span><span class="s">prj</span><span class="sh">'</span><span class="p">):</span>
 
         <span class="nf">super</span><span class="p">().</span><span class="nf">__init__</span><span class="p">()</span>
 
@@ -704,9 +704,9 @@ tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词
 </span>        <span class="c1">#   'prj': multiply (\sqrt{d_model} ^ -1) to linear projection output
 </span>        <span class="c1">#   'none': no multiplication
 </span>
-        <span class="k">assert</span> <span class="n">scale_emb_or_prj</span> <span class="ow">in</span> <span class="p">[</span><span class="s">'emb'</span><span class="p">,</span> <span class="s">'prj'</span><span class="p">,</span> <span class="s">'none'</span><span class="p">]</span>
-        <span class="n">scale_emb</span> <span class="o">=</span> <span class="p">(</span><span class="n">scale_emb_or_prj</span> <span class="o">==</span> <span class="s">'emb'</span><span class="p">)</span> <span class="k">if</span> <span class="n">trg_emb_prj_weight_sharing</span> <span class="k">else</span> <span class="bp">False</span>
-        <span class="n">self</span><span class="p">.</span><span class="n">scale_prj</span> <span class="o">=</span> <span class="p">(</span><span class="n">scale_emb_or_prj</span> <span class="o">==</span> <span class="s">'prj'</span><span class="p">)</span> <span class="k">if</span> <span class="n">trg_emb_prj_weight_sharing</span> <span class="k">else</span> <span class="bp">False</span>
+        <span class="k">assert</span> <span class="n">scale_emb_or_prj</span> <span class="ow">in</span> <span class="p">[</span><span class="sh">'</span><span class="s">emb</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">prj</span><span class="sh">'</span><span class="p">,</span> <span class="sh">'</span><span class="s">none</span><span class="sh">'</span><span class="p">]</span>
+        <span class="n">scale_emb</span> <span class="o">=</span> <span class="p">(</span><span class="n">scale_emb_or_prj</span> <span class="o">==</span> <span class="sh">'</span><span class="s">emb</span><span class="sh">'</span><span class="p">)</span> <span class="k">if</span> <span class="n">trg_emb_prj_weight_sharing</span> <span class="k">else</span> <span class="bp">False</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">scale_prj</span> <span class="o">=</span> <span class="p">(</span><span class="n">scale_emb_or_prj</span> <span class="o">==</span> <span class="sh">'</span><span class="s">prj</span><span class="sh">'</span><span class="p">)</span> <span class="k">if</span> <span class="n">trg_emb_prj_weight_sharing</span> <span class="k">else</span> <span class="bp">False</span>
         <span class="n">self</span><span class="p">.</span><span class="n">d_model</span> <span class="o">=</span> <span class="n">d_model</span>
 
         <span class="n">self</span><span class="p">.</span><span class="n">encoder</span> <span class="o">=</span> <span class="nc">Encoder</span><span class="p">(</span>
@@ -728,8 +728,8 @@ tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词
                 <span class="n">nn</span><span class="p">.</span><span class="n">init</span><span class="p">.</span><span class="nf">xavier_uniform_</span><span class="p">(</span><span class="n">p</span><span class="p">)</span> 
 
         <span class="k">assert</span> <span class="n">d_model</span> <span class="o">==</span> <span class="n">d_word_vec</span><span class="p">,</span> \
-        <span class="s">'To facilitate the residual connections, </span><span class="se">\
-</span><span class="s">         the dimensions of all module outputs shall be the same.'</span>
+        <span class="sh">'</span><span class="s">To facilitate the residual connections, </span><span class="se">\
+</span><span class="s">         the dimensions of all module outputs shall be the same.</span><span class="sh">'</span>
 
         <span class="k">if</span> <span class="n">trg_emb_prj_weight_sharing</span><span class="p">:</span>
             <span class="c1"># Share the weight between target word embedding &amp; last dense layer
@@ -788,7 +788,7 @@ tensor([[[-0.0251, -1.6902,  0.7172],  # 每一行代表一个词，第一个词
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Jiyao  Liu. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-Last updated: May 08, 2023.
+Last updated: May 16, 2023.
       </div>
     </footer>
 
